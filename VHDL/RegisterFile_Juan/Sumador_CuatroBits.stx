@@ -1,0 +1,42 @@
+Release 12.4 - xst M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> Parameter xsthdpdir set to C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Sumador_CuatroBits.vhd" in Library work.
+Entity <sumador_cuatrobits> compiled.
+ERROR:HDLParsers:164 - "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Sumador_CuatroBits.vhd" Line 60. parse error, unexpected LE, expecting COMMA or COLON
+ERROR:HDLParsers:3312 - "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Sumador_CuatroBits.vhd" Line 64. Undefined symbol 'in_Cin'.
+ERROR:HDLParsers:1209 - "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Sumador_CuatroBits.vhd" Line 64. in_Cin: Undefined symbol (last report in this block)
+ERROR:HDLParsers:164 - "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Sumador_CuatroBits.vhd" Line 64. parse error, unexpected INTEGER_LITERAL, expecting RETURN or IDENTIFIER or RSQBRACK
+ERROR:HDLParsers:164 - "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Sumador_CuatroBits.vhd" Line 65. parse error, unexpected INTEGER_LITERAL, expecting RETURN or IDENTIFIER or RSQBRACK
+ERROR:HDLParsers:164 - "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Sumador_CuatroBits.vhd" Line 66. parse error, unexpected INTEGER_LITERAL, expecting RETURN or IDENTIFIER or RSQBRACK
+ERROR:HDLParsers:164 - "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Sumador_CuatroBits.vhd" Line 67. parse error, unexpected INTEGER_LITERAL, expecting RETURN or IDENTIFIER or RSQBRACK
+ERROR:HDLParsers:164 - "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Sumador_CuatroBits.vhd" Line 70. parse error, unexpected INTEGER_LITERAL, expecting RETURN or IDENTIFIER or RSQBRACK
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.37 secs
+ 
+--> 
+
+Total memory usage is 155748 kilobytes
+
+Number of errors   :    8 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

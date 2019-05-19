@@ -1,0 +1,4 @@
+vhdl work "Multiplexor.vhd"
+vhdl work "Decodificador.vhd"
+vhdl work "Register_File.vhd"
+vhdl work "tb_register_file.vhd"

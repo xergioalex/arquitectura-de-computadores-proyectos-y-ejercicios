@@ -1,0 +1,40 @@
+Release 12.4 - xst M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/XergioAleX/Documents/Xilinx Projects/Verilog/Register_File_Estructurado_Xergio/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/XergioAleX/Documents/Xilinx Projects/Verilog/Register_File_Estructurado_Xergio/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Register_FIle_Xergio.v" in library work
+Module <Register_FIle_Xergio> compiled
+Module <Registro> compiled
+Module <Multiplexor> compiled
+Module <Decodificador> compiled
+No errors in compilation
+Analysis of file <"Register_FIle_Xergio.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> 
+
+Total memory usage is 198832 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

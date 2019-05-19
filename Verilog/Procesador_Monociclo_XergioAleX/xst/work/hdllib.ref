@@ -1,0 +1,15 @@
+MO Control_Unit NULL Procesador_Monociclo.v vlg24/_control___unit.bin 1323305395
+MO Register_File NULL Procesador_Monociclo.v vlg3C/_register___file.bin 1323305395
+MO Sumador NULL Procesador_Monociclo.v vlg7F/_sumador.bin 1323305395
+MO Procesador_Monociclo NULL Procesador_Monociclo.v vlg0C/_procesador___monociclo.bin 1323305395
+MO Anpersan NULL Procesador_Monociclo.v vlg48/_anpersan.bin 1323305395
+MO Program_Counter NULL Procesador_Monociclo.v vlg4B/_program___counter.bin 1323305395
+MO MUX_ALU NULL Procesador_Monociclo.v vlg33/_m_u_x___a_l_u.bin 1323305395
+MO Instruction_Memory NULL Procesador_Monociclo.v vlg22/_instruction___memory.bin 1323305395
+MO MUX_DW NULL Procesador_Monociclo.v vlg60/_m_u_x___d_w.bin 1323305395
+MO MUX_PC NULL Procesador_Monociclo.v vlg08/_m_u_x___p_c.bin 1323305395
+MO ALU NULL Procesador_Monociclo.v vlg2A/_a_l_u.bin 1323305395
+MO Instruccion_Memory NULL Procesador_Monociclo.v vlg19/_instruccion___memory.bin 1323291199
+MO Data_Memory NULL Procesador_Monociclo.v vlg0A/_data___memory.bin 1323305395
+MO MUX_RW NULL Procesador_Monociclo.v vlg26/_m_u_x___r_w.bin 1323305395
+MO SEU NULL Procesador_Monociclo.v vlg49/_s_e_u.bin 1323305395

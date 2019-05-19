@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# PlanAhead v12.1
+# Build 61553 by hdbuild on Fri Apr 23 10:13:54 PDT 2010
+# Start of session at: 11/28/11 11:27:03 PM
+# Process ID: 2936
+#-----------------------------------------------------------
+source {C:/Users/Andres/Desktop/Entrega Arquitectura/RegisterFile/pa.fromHdl.tcl}
+# create_project -name RegisterFile -dir "C:/Users/Andres/Desktop/Entrega Arquitectura/RegisterFile/planAhead_run_1" -part xc5vlx110tff1136-1
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property top RegisterFile $srcset
+# set_param project.paUcfFile  "C:/Users/Andres/Desktop/Entrega Arquitectura/RegisterFile/RegisterFile.ucf"
+# set hdlfile [add_files [list {RegisterFile.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# add_files "RegisterFile.ucf" -fileset [get_property constrset [current_run]]
+# add_files "XUPV5.ucf" -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc5vlx110tff1136-1
+startgroup
+set_property site IOB_X0Y201 [get_ports {DW[0]}]
+set_property is_fixed true  [get_ports {DW[0]}]
+endgroup
+#-----------------------------------------------------------
+# End of session at: 11/28/11 11:28:38 PM
+# Process ID: 2936
+#-----------------------------------------------------------

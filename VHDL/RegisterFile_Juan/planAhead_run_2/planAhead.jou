@@ -1,0 +1,9 @@
+#-----------------------------------------------------------
+# PlanAhead v12.4
+# Build 108585 by hdbuild on Tue Nov  9 17:32:56 MST 2010
+# Start of session at: Sun Nov 27 14:48:41 2011
+# Process ID: 3536
+# Log file: C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/planAhead_run_2/planAhead.log
+# Journal file: C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui -source {C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/pa.fromNetlist.tcl}

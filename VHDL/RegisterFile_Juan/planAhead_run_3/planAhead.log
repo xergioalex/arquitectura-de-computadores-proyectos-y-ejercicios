@@ -1,0 +1,125 @@
+#-----------------------------------------------------------
+# PlanAhead v12.4
+# Build 108585 by hdbuild on Tue Nov  9 17:32:56 MST 2010
+# Start of session at: Sun Nov 27 15:06:09 2011
+# Process ID: 1364
+# Log file: C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/planAhead_run_3/planAhead.log
+# Journal file: C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+INFO: [HD-Licensing 0] Attempting to get a license: PlanAhead
+INFO: [HD-Licensing 1] Got a license: PlanAhead
+INFO: [HD-ArchReader 0] Loading parts and site information from C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\arch.xml
+INFO: [HD-RTPRIM 0] Parsing RTL primitives file 'C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+INFO: [HD-RTPRIM 1] Finished Parsing RTL primitives file 'C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+start_gui -source {C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/pa.fromHdl.tcl}
+# create_project -name RegisterFile -dir "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/planAhead_run_3" -part xc5vlx110ff676-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property top Registe_File $srcset
+# set_param project.paUcfFile  "Registe_File.ucf"
+# set hdlfile [add_files [list {Register.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Multiplexor.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Decodificador.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Registe_File.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# add_files "Registe_File.ucf" -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc5vlx110ff676-3
+INFO: [HD-RTLIN 2] Parsing VHDL file "C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\lib\synplify\synattr.vhd" into library synplify
+INFO: [HD-RTLIN 2] Parsing package <attributes>.
+INFO: [HD-RTLIN 2] Parsing VHDL file "C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\lib\synplify\synattr.vhd" into library synplify
+INFO: [HD-RTLIN 2] Parsing package <attributes>.
+INFO: [HD-RTLIN 2] Parsing VHDL file "C:\JUAN CORRALES\UTP\SEMESTRE 1102\ARQUITECTURA DE COMPUTADORES\RegisterFile\Register.vhd" into library work
+INFO: [HD-RTLIN 2] Parsing entity <Registers>.
+INFO: [HD-RTLIN 2] Parsing architecture <Behavioral> of entity <registers>.
+INFO: [HD-RTLIN 2] Parsing VHDL file "C:\JUAN CORRALES\UTP\SEMESTRE 1102\ARQUITECTURA DE COMPUTADORES\RegisterFile\Multiplexor.vhd" into library work
+INFO: [HD-RTLIN 2] Parsing entity <Multiplexor>.
+INFO: [HD-RTLIN 2] Parsing architecture <Behavioral> of entity <multiplexor>.
+INFO: [HD-RTLIN 2] Parsing VHDL file "C:\JUAN CORRALES\UTP\SEMESTRE 1102\ARQUITECTURA DE COMPUTADORES\RegisterFile\Decodificador.vhd" into library work
+INFO: [HD-RTLIN 2] Parsing entity <Decodificador>.
+INFO: [HD-RTLIN 2] Parsing architecture <Behavioral> of entity <decodificador>.
+INFO: [HD-RTLIN 2] Parsing VHDL file "C:\JUAN CORRALES\UTP\SEMESTRE 1102\ARQUITECTURA DE COMPUTADORES\RegisterFile\Registe_File.vhd" into library work
+INFO: [HD-RTLIN 2] Parsing entity <Registe_File>.
+INFO: [HD-RTLIN 2] Parsing architecture <Behavioral> of entity <registe_file>.
+INFO: [HD-RTLIN 2] Elaborating entity <Registe_File> (architecture <Behavioral>) from library <work>.
+INFO: [HD-RTLIN 2] Elaborating entity <Decodificador> (architecture <Behavioral>) from library <work>.
+INFO: [HD-RTLIN 1] C:\JUAN CORRALES\UTP\SEMESTRE 1102\ARQUITECTURA DE COMPUTADORES\RegisterFile\Decodificador.vhd(49) Case statement is complete. Others clause is never selected and therefore discarded.
+INFO: [HD-RTLIN 2] Elaborating entity <Registers> (architecture <Behavioral>) from library <work>.
+INFO: [HD-RTLIN 2] Elaborating entity <Multiplexor> (architecture <Behavioral>) from library <work>.
+INFO: [HD-RTLIN 1] C:\JUAN CORRALES\UTP\SEMESTRE 1102\ARQUITECTURA DE COMPUTADORES\RegisterFile\Multiplexor.vhd(53) Case statement is complete. Others clause is never selected and therefore discarded.
+INFO: [HD-ArchReader 18] Reading macro library C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn
+INFO: [HD-EDIFIN 0] Parsing Edif File 'C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn'
+INFO: [HD-EDIFIN 1] Finished Parsing Edif File 'C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn'
+INFO: [HD-ArchReader 15] Reading bus macro file C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/virtex5/pr_bus_macros.xml
+INFO: [HD-ArchReader 7] Loading clock regions from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/virtex5/virtex5lx/xc5vlx110/ClockRegion.xml
+INFO: [HD-ArchReader 8] Loading clock buffers from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/virtex5/virtex5lx/xc5vlx110/ClockBuffers.xml
+INFO: [HD-ArchReader 3] Loading package from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/virtex5/virtex5lx/xc5vlx110/ff676/Package.xml
+INFO: [HD-ArchReader 4] Loading io standards from C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/virtex5/IOStandards.xml
+INFO: [HD-ArchReader 5] Loading pkg sso from C:/Xilinx/12.4/ISE_DS/PlanAhead/parts/xilinx/virtex5/virtex5lx/xc5vlx110/ff676/SSORules.xml
+INFO: [HD-GDRC 0] Loading list of drcs for the architecture : C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/virtex5/drc.xml
+INFO: [HD-UCFReader 0] Parsing UCF File : .\Registe_File.ucf
+INFO: [HD-UCFReader 1] Finished Parsing UCF File : .\Registe_File.ucf
+
+DESIGN RULE CHECK VIOLATION REPORT
+   Build: PlanAhead v12.4 by hdbuild
+          on  Tue Nov  9 17:32:56 MST 2010
+  Report: by USER on host FamiliaCorrales, pid 1364
+          on Sun Nov 27 15:06:44 2011
+
+REPORT SUMMARY
+            Netlist: Registe_File
+          Floorplan: <none>
+      Design limits: <entire design considered>
+             Checks: Unknown block name
+                     Unknown Unisim pin name
+                     Mismatching Attribute
+           Max vios: <unlimited>
+         Vios found: 7
+
+REPORT DETAILS
+ULMN#1
+Unknown block name - <no location>
+Block name RTL_GND is not a valid Unisim for the specified architecture. No block of type RTL_GND exists in the Unisim library for the virtex5lx architecture.
+Related Vios: <none>
+
+ULMN#2
+Unknown block name - <no location>
+Block name RTL_PWR is not a valid Unisim for the specified architecture. No block of type RTL_PWR exists in the Unisim library for the virtex5lx architecture.
+Related Vios: <none>
+
+ULMN#3
+Unknown block name - <no location>
+Block name RTL_Mux_2u_4u is not a valid Unisim for the specified architecture. No block of type RTL_Mux_2u_4u exists in the Unisim library for the virtex5lx architecture.
+Related Vios: <none>
+
+ULMN#4
+Unknown block name - <no location>
+Block name RTL_mux_4 is not a valid Unisim for the specified architecture. No block of type RTL_mux_4 exists in the Unisim library for the virtex5lx architecture.
+Related Vios: <none>
+
+ULMN#5
+Unknown block name - <no location>
+Block name RTL_wide_fdrse_4 is not a valid Unisim for the specified architecture. No block of type RTL_wide_fdrse_4 exists in the Unisim library for the virtex5lx architecture.
+Related Vios: <none>
+
+ULMN#6
+Unknown block name - <no location>
+Block name RTL_equal_4 is not a valid Unisim for the specified architecture. No block of type RTL_equal_4 exists in the Unisim library for the virtex5lx architecture.
+Related Vios: <none>
+
+ULMN#7
+Unknown block name - <no location>
+Block name RTL_wide_mux_2_16 is not a valid Unisim for the specified architecture. No block of type RTL_wide_mux_2_16 exists in the Unisim library for the virtex5lx architecture.
+Related Vios: <none>
+
+INFO: [HD-LIB 0] Reading timing library C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/virtex5/virtex5.lib .
+INFO: [HD-LIB 1] Done reading timing library C:/Xilinx/12.4/ISE_DS/PlanAhead/./parts/xilinx/virtex5/virtex5.lib .
+exit
+INFO: [HD-Application 0] Exiting PlanAhead...
+INFO: [HD-Licensing 2] Releasing license: PlanAhead

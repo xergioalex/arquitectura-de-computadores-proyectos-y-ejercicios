@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.syr" 
+xst -intstyle ise -ifn "D:/Universidad/Semestre 6/Arquitectura de Computadores/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.xst" -ofn "D:/Universidad/Semestre 6/Arquitectura de Computadores/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx110t-ff1136-3 "Procesador_Segmentado.ngc" Procesador_Segmentado.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-3 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o Procesador_Segmentado_map.ncd Procesador_Segmentado.ngd Procesador_Segmentado.pcf 
+par -w -intstyle ise -ol high -mt off Procesador_Segmentado_map.ncd Procesador_Segmentado.ncd Procesador_Segmentado.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Procesador_Segmentado.twx Procesador_Segmentado.ncd -o Procesador_Segmentado.twr Procesador_Segmentado.pcf 
+bitgen -intstyle ise -f Procesador_Segmentado.ut Procesador_Segmentado.ncd 

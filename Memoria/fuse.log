@@ -1,0 +1,19 @@
+Running: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/XergioAleX/Documents/Xilinx Projects/Memoria/tb_isim_beh.exe -prj C:/Users/XergioAleX/Documents/Xilinx Projects/Memoria/tb_beh.prj work.tb work.glbl 
+ISim M.81d (signature 0x12940baa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file \"C:/Users/XergioAleX/Documents/Xilinx Projects/Memoria/instruction_memory.v\" into library work
+Analyzing Verilog file \"C:/Users/XergioAleX/Documents/Xilinx Projects/Memoria/tb.v\" into library work
+Analyzing Verilog file \"C:/Xilinx/12.4/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module Instruction_Memory
+Compiling module tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable C:/Users/XergioAleX/Documents/Xilinx Projects/Memoria/tb_isim_beh.exe
+Fuse Memory Usage: 16060 KB
+Fuse CPU Usage: 234 ms

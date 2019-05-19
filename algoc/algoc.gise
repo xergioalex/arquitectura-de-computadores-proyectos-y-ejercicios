@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="algoc.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="algoc.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="algoc.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="algoc.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="algoc.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="algoc.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="algoc.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="algoc.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="algoc.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="algoc_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="algoc_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="algoc_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1322227387" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1322227387">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1322227387" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="225388546029630891" xil_pn:start_ts="1322227387">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1322227387" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5187633868674112387" xil_pn:start_ts="1322227387">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1322227387" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1322227387">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1322227387" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="9075525471154519101" xil_pn:start_ts="1322227387">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1322227794" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="4574663104385507401" xil_pn:start_ts="1322227794">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1322227794" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-4381592965513727161" xil_pn:start_ts="1322227794">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1322349915" xil_pn:in_ck="129625263754" xil_pn:name="TRANEXT_xstsynthesize_virtex5" xil_pn:prop_ck="213632866551830725" xil_pn:start_ts="1322349908">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="algoc.lso"/>
+      <outfile xil_pn:name="algoc.prj"/>
+      <outfile xil_pn:name="algoc.syr"/>
+      <outfile xil_pn:name="algoc.xst"/>
+      <outfile xil_pn:name="algoc_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1322227806" xil_pn:in_ck="141161912230386" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4066557905371774824" xil_pn:start_ts="1322227806">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:name="TRAN_postSynthesisSimModel">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

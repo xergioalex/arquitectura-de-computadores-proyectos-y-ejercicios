@@ -1,0 +1,46 @@
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+netgen -intstyle ise -ar Structure -tm Registe_File -w -dir netgen/synthesis -ofmt vhdl -sim Registe_File.ngc Registe_File_synthesis.vhd 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx100-fgg484-3 "Registe_File.ngc" Registe_File.ngd  
+map -intstyle ise -p xc6slx100-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Registe_File_map.ncd Registe_File.ngd Registe_File.pcf 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Registe_File.ucf -p xc6slx100-fgg484-3 "Registe_File.ngc" Registe_File.ngd  
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx110-ff676-3 "Registe_File.ngc" Registe_File.ngd  
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Registe_File.ucf -p xc5vlx110t-ff1136-1 "Registe_File.ngc" Registe_File.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o Registe_File_map.ncd Registe_File.ngd Registe_File.pcf 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Registe_File.ucf -p xc5vlx110t-ff1136-1 "Registe_File.ngc" Registe_File.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o Registe_File_map.ncd Registe_File.ngd Registe_File.pcf 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Desktop/RegisterFile/Registe_File.xst" -ofn "C:/Users/XergioAleX/Desktop/RegisterFile/Registe_File.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Desktop/RegisterFile/Registe_File.xst" -ofn "C:/Users/XergioAleX/Desktop/RegisterFile/Registe_File.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx110t-ff1136-1 Registe_File.ngc Registe_File.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o Registe_File_map.ncd Registe_File.ngd Registe_File.pcf 
+par -w -intstyle ise -ol high -mt off Registe_File_map.ncd Registe_File.ncd Registe_File.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Registe_File.twx Registe_File.ncd -o Registe_File.twr Registe_File.pcf 
+bitgen -intstyle ise -f Registe_File.ut Registe_File.ncd 
+bitgen -intstyle ise -f Registe_File.ut Registe_File.ncd 
+vhdtdtfi -lib work Register.vhd -lib work Multiplexor.vhd -lib work Decodificador.vhd -lib work Registe_File.vhd -prj RegisterFile -o Registe_File.spl -module Registe_File -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 Registe_File.spl C:/Users/XergioAleX/Desktop/RegisterFile/Registe_File.sym 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Desktop/RegisterFile/Registe_File.xst" -ofn "C:/Users/XergioAleX/Desktop/RegisterFile/Registe_File.syr" 

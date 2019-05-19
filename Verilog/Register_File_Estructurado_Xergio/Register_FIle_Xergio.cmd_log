@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Verilog Oscar/Register_File_Estructurado_Xergio/Register_FIle_Xergio.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Verilog Oscar/Register_File_Estructurado_Xergio/Register_FIle_Xergio.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Verilog Oscar/Register_File_Estructurado_Xergio/Register_FIle_Xergio.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Verilog Oscar/Register_File_Estructurado_Xergio/Register_FIle_Xergio.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx110t-ff1136-1 "Register_FIle_Xergio.ngc" Register_FIle_Xergio.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o Register_FIle_Xergio_map.ncd Register_FIle_Xergio.ngd Register_FIle_Xergio.pcf 
+par -w -intstyle ise -ol high -mt off Register_FIle_Xergio_map.ncd Register_FIle_Xergio.ncd Register_FIle_Xergio.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Register_FIle_Xergio.twx Register_FIle_Xergio.ncd -o Register_FIle_Xergio.twr Register_FIle_Xergio.pcf 

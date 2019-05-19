@@ -1,0 +1,110 @@
+--------------------------------------------------------------------------------
+Release 12.4 Trace  (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\12.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
+-n 3 -fastpaths -xml Register_FIle_Xergio.twx Register_FIle_Xergio.ncd -o
+Register_FIle_Xergio.twr Register_FIle_Xergio.pcf
+
+Design file:              Register_FIle_Xergio.ncd
+Physical constraint file: Register_FIle_Xergio.pcf
+Device,package,speed:     xc5vlx110t,ff1136,-1 (PRODUCTION 1.72 2010-11-18, STEPPING level 0)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+dw<0>       |   -0.535(R)|    2.807(R)|clk_BUFGP         |   0.000|
+dw<1>       |   -0.494(R)|    2.791(R)|clk_BUFGP         |   0.000|
+dw<2>       |   -0.541(R)|    2.869(R)|clk_BUFGP         |   0.000|
+dw<3>       |   -0.669(R)|    2.934(R)|clk_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock rwe
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+rw<0>       |   -0.284(F)|    2.803(F)|rwe_BUFGP         |   0.000|
+rw<1>       |   -0.567(F)|    2.733(F)|rwe_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+crs<0>      |    9.592(R)|clk_BUFGP         |   0.000|
+crs<1>      |    9.709(R)|clk_BUFGP         |   0.000|
+crs<2>      |    9.585(R)|clk_BUFGP         |   0.000|
+crs<3>      |    9.773(R)|clk_BUFGP         |   0.000|
+crt<0>      |    9.745(R)|clk_BUFGP         |   0.000|
+crt<1>      |    9.820(R)|clk_BUFGP         |   0.000|
+crt<2>      |    9.587(R)|clk_BUFGP         |   0.000|
+crt<3>      |    9.785(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+rwe            |         |    1.574|         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+rs<0>          |crs<0>         |    6.056|
+rs<0>          |crs<1>         |    6.031|
+rs<0>          |crs<2>         |    6.054|
+rs<0>          |crs<3>         |    6.247|
+rs<1>          |crs<0>         |    5.750|
+rs<1>          |crs<1>         |    5.731|
+rs<1>          |crs<2>         |    5.662|
+rs<1>          |crs<3>         |    5.851|
+rt<0>          |crt<0>         |    6.144|
+rt<0>          |crt<1>         |    5.869|
+rt<0>          |crt<2>         |    5.847|
+rt<0>          |crt<3>         |    6.046|
+rt<1>          |crt<0>         |    5.703|
+rt<1>          |crt<1>         |    6.077|
+rt<1>          |crt<2>         |    6.312|
+rt<1>          |crt<3>         |    6.511|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Dec 05 21:12:22 2011 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 405 MB
+
+
+

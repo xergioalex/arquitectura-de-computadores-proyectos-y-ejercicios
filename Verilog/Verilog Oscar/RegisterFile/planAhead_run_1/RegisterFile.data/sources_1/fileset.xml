@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<DARoots Version="1" Minor="6">
+	<FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+		<Filter Type="Srcs"/>
+		<Root Path="C:/Users/Andres/Desktop/Entrega Arquitectura/RegisterFile/RegisterFile.v">
+		</Root>
+		<Config>
+			<Option Name="DesignMode" Val="RTL"/>
+			<Option Name="TopModule" Val="RegisterFile"/>
+		</Config>
+	</FileSet>
+</DARoots>
+

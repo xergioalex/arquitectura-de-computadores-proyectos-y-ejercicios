@@ -1,0 +1,10 @@
+vhdtdtfi -lib work {C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/PTD.v} -lang verilog -prj Flip_Flop -o PTD.spl -module PTD -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 PTD.spl {C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/PTD.sym} 
+vhdtdtfi -lib work {C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/PTD.v} -lang verilog -prj Flip_Flop -o PTD.spl -module PTD -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 PTD.spl {C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/PTD.sym} 
+vhdtdtfi -lib work {C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/PTD.v} -lang verilog -prj Flip_Flop -o PTD.spl -module PTD -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 PTD.spl {C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/PTD.sym} 
+vhdtdtfi -lib work {C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/PTD.v} -lang verilog -prj Flip_Flop -o PTD.spl -module PTD -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 PTD.spl {C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/PTD.sym} 
+vhdtdtfi -lib work {C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/PTD.v} -lang verilog -prj Flip_Flop -o PTD.spl -module PTD -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 PTD.spl {C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/PTD.sym} 

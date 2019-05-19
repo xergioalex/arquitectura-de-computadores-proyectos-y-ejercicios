@@ -1,0 +1,29 @@
+Command line:
+   Sumador_Medio_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55744
+
+Sun Nov 27 22:01:29 2011
+
+
+ Elaboration Time: 0.0624 sec
+
+ Current Memory Usage: 483.414 Meg
+
+ Total Signals          : 10
+ Total Nets             : 20
+ Total Signal Drivers   : 5
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 3
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 380
+Total Line Count : 11
+
+ Total Simulation Time: 0.296401 sec
+
+ Current Memory Usage: 483.414 Meg
+
+Sun Nov 27 22:05:10 2011
+

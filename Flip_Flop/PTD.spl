@@ -1,0 +1,8 @@
+[Inputs]
+clk
+[Outputs]
+enable
+[BiDir]
+[ATTRIBUTES]
+VeriModel PTD
+

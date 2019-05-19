@@ -1,0 +1,8 @@
+[Inputs]
+clk
+[Outputs]
+=alu_out[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Procesador_Monociclo
+

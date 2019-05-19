@@ -1,0 +1,50 @@
+Release 12.4 - xst M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/XergioAleX/Documents/Xilinx Projects/VERILOG_Procesador_Monociclo/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/XergioAleX/Documents/Xilinx Projects/VERILOG_Procesador_Monociclo/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Procesador_Monociclo.v" in library work
+Module <Procesador_Monociclo> compiled
+Module <Control_Unit> compiled
+Module <ALU> compiled
+Module <Data_Memory> compiled
+Module <SEU> compiled
+Module <Register_File> compiled
+Module <Instruction_Memory> compiled
+Module <Program_Counter> compiled
+Module <Sumador> compiled
+Module <Ampersan> compiled
+Module <MUX_RW> compiled
+Module <MUX_DW> compiled
+Module <MUX_PC> compiled
+Module <MUX_ALU> compiled
+No errors in compilation
+Analysis of file <"Data_Memory.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> 
+
+Total memory usage is 200048 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,104 @@
+INFO: [HD-Application 1] Opened log file C:/Users/Andres/Desktop/Entrega Arquitectura/RegisterFile/planAhead_run_1/planAhead.log
+INFO: [HD-Application 2] Opened journal file C:/Users/Andres/Desktop/Entrega Arquitectura/RegisterFile/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+# PlanAhead v12.1
+# Build 61553 by hdbuild on Fri Apr 23 10:13:54 PDT 2010
+# Start of session at: 11/28/11 11:27:03 PM
+# Process ID: 2936
+#-----------------------------------------------------------
+source {C:/Users/Andres/Desktop/Entrega Arquitectura/RegisterFile/pa.fromHdl.tcl}
+# create_project -name RegisterFile -dir "C:/Users/Andres/Desktop/Entrega Arquitectura/RegisterFile/planAhead_run_1" -part xc5vlx110tff1136-1
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property top RegisterFile $srcset
+# set_param project.paUcfFile  "C:/Users/Andres/Desktop/Entrega Arquitectura/RegisterFile/RegisterFile.ucf"
+# set hdlfile [add_files [list {RegisterFile.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# add_files "RegisterFile.ucf" -fileset [get_property constrset [current_run]]
+# add_files "XUPV5.ucf" -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc5vlx110tff1136-1
+INFO: [HD-RTLIN 2] Parsing VHDL file "C:\Xilinx\12.1\ISE_DS\PlanAhead\parts\xilinx\rtl\lib\synplify\synattr.vhd" into library synplify
+INFO: [HD-RTLIN 2] Parsing package <attributes>.
+INFO: [HD-RTLIN 2] Parsing Verilog file "C:\Users\Andres\Desktop\Entrega Arquitectura\RegisterFile\RegisterFile.v" into library work
+INFO: [HD-RTLIN 2] Parsing module <decodifi>.
+INFO: [HD-RTLIN 2] Parsing module <Multiplexor>.
+INFO: [HD-RTLIN 2] Parsing module <Registro>.
+INFO: [HD-RTLIN 2] Parsing module <RegisterFile>.
+INFO: [HD-RTLIN 2] Elaborating module <RegisterFile>.
+INFO: [HD-RTLIN 2] Elaborating module <decodifi>.
+INFO: [HD-RTLIN 2] Elaborating module <Registro>.
+INFO: [HD-RTLIN 2] Elaborating module <Multiplexor>.
+INFO: [HD-ArchReader 18] Reading macro library C:/Xilinx/12.1/ISE_DS/PlanAhead/./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn
+INFO: [HD-EDIFIN 0] Parsing Edif File 'C:/Xilinx/12.1/ISE_DS/PlanAhead/./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn'
+INFO: [HD-EDIFIN 1] Finished Parsing Edif File 'C:/Xilinx/12.1/ISE_DS/PlanAhead/./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn'
+INFO: [HD-ArchReader 15] Reading bus macro file C:/Xilinx/12.1/ISE_DS/PlanAhead/./parts/xilinx/virtex5/pr_bus_macros.xml
+INFO: [HD-ArchReader 7] Loading clock regions from C:/Xilinx/12.1/ISE_DS/PlanAhead/parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ClockRegion.xml
+INFO: [HD-ArchReader 8] Loading clock buffers from C:/Xilinx/12.1/ISE_DS/PlanAhead/parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ClockBuffers.xml
+INFO: [HD-ArchReader 3] Loading package from C:/Xilinx/12.1/ISE_DS/PlanAhead/parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ff1136/Package.xml
+INFO: [HD-ArchReader 4] Loading io standards from C:/Xilinx/12.1/ISE_DS/PlanAhead/./parts/xilinx/virtex5/IOStandards.xml
+INFO: [HD-ArchReader 5] Loading pkg sso from C:/Xilinx/12.1/ISE_DS/PlanAhead/parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ff1136/SSORules.xml
+INFO: [HD-GDRC 0] Loading list of drcs for the architecture : C:/Xilinx/12.1/ISE_DS/PlanAhead/./parts/xilinx/virtex5/drc.xml
+INFO: [HD-UCFReader 0] Parsing UCF File : .\RegisterFile.ucf
+INFO: [HD-UCFReader 1] Finished Parsing UCF File : .\RegisterFile.ucf
+INFO: [HD-UCFReader 0] Parsing UCF File : .\XUPV5.ucf
+INFO: [HD-UCFReader 1] Finished Parsing UCF File : .\XUPV5.ucf
+
+DESIGN RULE CHECK VIOLATION REPORT
+   Build: PlanAhead v12.1 by hdbuild
+          on  Fri Apr 23 10:13:54 PDT 2010
+  Report: by Andres on host Andres-PC, pid 2936
+          on Mon Nov 28 23:27:25 2011
+
+REPORT SUMMARY
+            Netlist: RegisterFile
+          Floorplan: <none>
+      Design limits: <entire design considered>
+             Checks: Mismatching Block
+                     Mismatching Pin
+                     Mismatching Attribute
+           Max vios: <unlimited>
+         Vios found: 6
+
+REPORT DETAILS
+ULMN#1
+Mismatching Block - <no location>
+RTL_GND No block of type RTL_GND exists in the Unisim library
+Related Vios: <none>
+
+ULMN#2
+Mismatching Block - <no location>
+RTL_PWR No block of type RTL_PWR exists in the Unisim library
+Related Vios: <none>
+
+ULMN#3
+Mismatching Block - <no location>
+RTL_Mux_2u_4u No block of type RTL_Mux_2u_4u exists in the Unisim library
+Related Vios: <none>
+
+ULMN#4
+Mismatching Block - <no location>
+RTL_DLATCHRS No block of type RTL_DLATCHRS exists in the Unisim library
+Related Vios: <none>
+
+ULMN#5
+Mismatching Block - <no location>
+RTL_wide_fdrse_4 No block of type RTL_wide_fdrse_4 exists in the Unisim library
+Related Vios: <none>
+
+ULMN#6
+Mismatching Block - <no location>
+RTL_wide_mux_2_16 No block of type RTL_wide_mux_2_16 exists in the Unisim library
+Related Vios: <none>
+
+INFO: [HD-LIB 0] Reading timing library C:/Xilinx/12.1/ISE_DS/PlanAhead/./parts/xilinx/virtex5/virtex5.lib .
+INFO: [HD-LIB 1] Done reading timing library C:/Xilinx/12.1/ISE_DS/PlanAhead/./parts/xilinx/virtex5/virtex5.lib .
+elab_constrs_1
+startgroup
+set_property site IOB_X0Y201 [get_ports {DW[0]}]
+set_property is_fixed true  [get_ports {DW[0]}]
+endgroup
+#-----------------------------------------------------------
+# End of session at: 11/28/11 11:28:38 PM
+# Process ID: 2936
+#-----------------------------------------------------------

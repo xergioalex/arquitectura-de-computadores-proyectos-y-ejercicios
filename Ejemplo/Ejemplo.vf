@@ -1,0 +1,44 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 12.4
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Ejemplo.vf
+// /___/   /\     Timestamp : 12/09/2011 12:54:30
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family virtex5 -verilog "C:/Users/XergioAleX/Documents/Xilinx Projects/Ejemplo/Ejemplo.vf" -w "C:/Users/XergioAleX/Documents/Xilinx Projects/Ejemplo/Ejemplo.sch"
+//Design Name: Ejemplo
+//Device: virtex5
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Ejemplo();
+
+   
+   wire negq;
+   wire q;
+   wire XLXN_4;
+   wire XLXN_5;
+   wire XLXN_8;
+   
+   NAND2  XLXI_7 (.I0(XLXN_5), 
+                 .I1(q), 
+                 .O(negq));
+   NAND2  XLXI_8 (.I0(negq), 
+                 .I1(XLXN_4), 
+                 .O(q));
+   NAND2  XLXI_9 (.I0(XLXN_8), 
+                 .I1(), 
+                 .O(XLXN_4));
+   NAND2  XLXI_10 (.I0(), 
+                  .I1(XLXN_8), 
+                  .O(XLXN_5));
+endmodule

@@ -1,0 +1,3 @@
+verilog work "Procesador_Monociclo.v"
+verilog work "tb_registe_file_completo.v"
+verilog work "C:/Xilinx/12.4/ISE_DS/ISE//verilog/src/glbl.v"

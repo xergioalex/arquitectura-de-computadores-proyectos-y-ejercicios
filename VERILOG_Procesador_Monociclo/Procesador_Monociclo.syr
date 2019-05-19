@@ -1,0 +1,985 @@
+Release 12.4 - xst M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: Procesador_Monociclo.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Procesador_Monociclo.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Procesador_Monociclo"
+Output Format                      : NGC
+Target Device                      : xc5vlx110t-1-ff1136
+
+---- Source Options
+Top Module Name                    : Procesador_Monociclo
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Off
+Reduce Control Sets                : Off
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Procesador_Monociclo.v" in library work
+Module <Procesador_Monociclo_out> compiled
+Module <Procesador_Monociclo> compiled
+Module <Comparador> compiled
+Module <Control_Unit> compiled
+Module <ALU> compiled
+Module <Data_Memory> compiled
+Module <SEU> compiled
+Module <Register_File> compiled
+Module <Instruction_Memory> compiled
+Module <Program_Counter> compiled
+Module <Sumador_pc_inc> compiled
+Module <Sumador_pc> compiled
+Module <Ampersan> compiled
+Module <MUX_RW> compiled
+Module <MUX_DW> compiled
+Module <MUX_PC> compiled
+Module <MUX_ALU> compiled
+No errors in compilation
+Analysis of file <"Procesador_Monociclo.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <Procesador_Monociclo> in library <work>.
+
+Analyzing hierarchy for module <Program_Counter> in library <work>.
+
+Analyzing hierarchy for module <Instruction_Memory> in library <work>.
+
+Analyzing hierarchy for module <Control_Unit> in library <work>.
+
+Analyzing hierarchy for module <Register_File> in library <work>.
+
+Analyzing hierarchy for module <SEU> in library <work>.
+
+Analyzing hierarchy for module <ALU> in library <work>.
+
+Analyzing hierarchy for module <Sumador_pc_inc> in library <work>.
+
+Analyzing hierarchy for module <Sumador_pc> in library <work>.
+
+Analyzing hierarchy for module <Ampersan> in library <work>.
+
+Analyzing hierarchy for module <MUX_ALU> in library <work>.
+
+Analyzing hierarchy for module <MUX_PC> in library <work>.
+
+Analyzing hierarchy for module <Data_Memory> in library <work>.
+
+Analyzing hierarchy for module <MUX_DW> in library <work>.
+
+Analyzing hierarchy for module <MUX_RW> in library <work>.
+
+Analyzing hierarchy for module <Comparador> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Procesador_Monociclo>.
+Module <Procesador_Monociclo> is correct for synthesis.
+ 
+Analyzing module <Program_Counter> in library <work>.
+Module <Program_Counter> is correct for synthesis.
+ 
+Analyzing module <Instruction_Memory> in library <work>.
+INFO:Xst:2546 - "Procesador_Monociclo.v" line 306: reading initialization file "for.txt".
+INFO:Xst:1607 - Contents of array <memory> may be accessed with an index that does not cover the full array size.
+Module <Instruction_Memory> is correct for synthesis.
+ 
+Analyzing module <Control_Unit> in library <work>.
+Module <Control_Unit> is correct for synthesis.
+ 
+Analyzing module <Register_File> in library <work>.
+Module <Register_File> is correct for synthesis.
+ 
+Analyzing module <SEU> in library <work>.
+Module <SEU> is correct for synthesis.
+ 
+Analyzing module <ALU> in library <work>.
+Module <ALU> is correct for synthesis.
+ 
+Analyzing module <Sumador_pc_inc> in library <work>.
+Module <Sumador_pc_inc> is correct for synthesis.
+ 
+Analyzing module <Sumador_pc> in library <work>.
+Module <Sumador_pc> is correct for synthesis.
+ 
+Analyzing module <Ampersan> in library <work>.
+Module <Ampersan> is correct for synthesis.
+ 
+Analyzing module <MUX_ALU> in library <work>.
+Module <MUX_ALU> is correct for synthesis.
+ 
+Analyzing module <MUX_PC> in library <work>.
+Module <MUX_PC> is correct for synthesis.
+ 
+Analyzing module <Data_Memory> in library <work>.
+INFO:Xst:1607 - Contents of array <memory> may be accessed with an index that does not cover the full array size.
+INFO:Xst:1433 - Contents of array <memory> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+WARNING:Xst:905 - "Procesador_Monociclo.v" line 241: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <memory>
+Module <Data_Memory> is correct for synthesis.
+ 
+Analyzing module <MUX_DW> in library <work>.
+Module <MUX_DW> is correct for synthesis.
+ 
+Analyzing module <MUX_RW> in library <work>.
+Module <MUX_RW> is correct for synthesis.
+ 
+Analyzing module <Comparador> in library <work>.
+Module <Comparador> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Program_Counter>.
+    Related source file is "Procesador_Monociclo.v".
+    Found 32-bit register for signal <pc>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <Program_Counter> synthesized.
+
+
+Synthesizing Unit <Instruction_Memory>.
+    Related source file is "Procesador_Monociclo.v".
+WARNING:Xst:647 - Input <pc<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1781 - Signal <memory> is used but never assigned. Tied to default value.
+    Found 9x32-bit ROM for signal <inst>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <Instruction_Memory> synthesized.
+
+
+Synthesizing Unit <Control_Unit>.
+    Related source file is "Procesador_Monociclo.v".
+Unit <Control_Unit> synthesized.
+
+
+Synthesizing Unit <Register_File>.
+    Related source file is "Procesador_Monociclo.v".
+    Found 32x32-bit dual-port RAM <Mram_registros> for signal <registros>.
+    Found 32x32-bit dual-port RAM <Mram_registros_ren> for signal <registros>.
+    Summary:
+	inferred   2 RAM(s).
+Unit <Register_File> synthesized.
+
+
+Synthesizing Unit <SEU>.
+    Related source file is "Procesador_Monociclo.v".
+Unit <SEU> synthesized.
+
+
+Synthesizing Unit <ALU>.
+    Related source file is "Procesador_Monociclo.v".
+    Found 32-bit addsub for signal <alu_output$addsub0000>.
+    Found 32-bit comparator less for signal <alu_output$cmp_lt0000> created at line 220.
+    Found 32-bit shifter logical left for signal <alu_output$shift0000> created at line 212.
+    Found 32-bit shifter logical right for signal <alu_output$shift0001> created at line 214.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+	inferred   2 Combinational logic shifter(s).
+Unit <ALU> synthesized.
+
+
+Synthesizing Unit <Sumador_pc_inc>.
+    Related source file is "Procesador_Monociclo.v".
+WARNING:Xst:647 - Input <inm_ext<31:30>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 32-bit adder for signal <result>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <Sumador_pc_inc> synthesized.
+
+
+Synthesizing Unit <Sumador_pc>.
+    Related source file is "Procesador_Monociclo.v".
+    Found 32-bit adder for signal <pc_inc>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <Sumador_pc> synthesized.
+
+
+Synthesizing Unit <Ampersan>.
+    Related source file is "Procesador_Monociclo.v".
+Unit <Ampersan> synthesized.
+
+
+Synthesizing Unit <MUX_ALU>.
+    Related source file is "Procesador_Monociclo.v".
+Unit <MUX_ALU> synthesized.
+
+
+Synthesizing Unit <MUX_PC>.
+    Related source file is "Procesador_Monociclo.v".
+Unit <MUX_PC> synthesized.
+
+
+Synthesizing Unit <Data_Memory>.
+    Related source file is "Procesador_Monociclo.v".
+WARNING:Xst:647 - Input <address<31:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:737 - Found 32-bit latch for signal <memory_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 32-bit latch for signal <memory_1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 32-bit latch for signal <memory_2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 32-bit latch for signal <memory_3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 32-bit latch for signal <memory_4>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 32-bit latch for signal <memory_5>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 32-bit latch for signal <memory_6>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 32-bit latch for signal <memory_7>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 32-bit 8-to-1 multiplexer for signal <$varindex0000> created at line 243.
+    Summary:
+	inferred  32 Multiplexer(s).
+Unit <Data_Memory> synthesized.
+
+
+Synthesizing Unit <MUX_DW>.
+    Related source file is "Procesador_Monociclo.v".
+Unit <MUX_DW> synthesized.
+
+
+Synthesizing Unit <MUX_RW>.
+    Related source file is "Procesador_Monociclo.v".
+WARNING:Xst:737 - Found 5-bit latch for signal <rw>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+Unit <MUX_RW> synthesized.
+
+
+Synthesizing Unit <Comparador>.
+    Related source file is "Procesador_Monociclo.v".
+    Found 32-bit comparator equal for signal <zero$cmp_eq0000> created at line 114.
+    Summary:
+	inferred   1 Comparator(s).
+Unit <Comparador> synthesized.
+
+
+Synthesizing Unit <Procesador_Monociclo>.
+    Related source file is "Procesador_Monociclo.v".
+Unit <Procesador_Monociclo> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 32x32-bit dual-port RAM                               : 2
+# ROMs                                                 : 1
+ 9x32-bit ROM                                          : 1
+# Adders/Subtractors                                   : 3
+ 32-bit adder                                          : 2
+ 32-bit addsub                                         : 1
+# Registers                                            : 1
+ 32-bit register                                       : 1
+# Latches                                              : 9
+ 32-bit latch                                          : 8
+ 5-bit latch                                           : 1
+# Comparators                                          : 2
+ 32-bit comparator equal                               : 1
+ 32-bit comparator less                                : 1
+# Multiplexers                                         : 1
+ 32-bit 8-to-1 multiplexer                             : 1
+# Logic shifters                                       : 2
+ 32-bit shifter logical left                           : 1
+ 32-bit shifter logical right                          : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Register_File>.
+INFO:Xst:3031 - HDL ADVISOR - The RAM <Mram_registros> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <rf_wr>         | high     |
+    |     addrA          | connected to signal <rw>            |          |
+    |     diA            | connected to signal <dw>            |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     addrB          | connected to signal <rs>            |          |
+    |     doB            | connected to signal <crs>           |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3031 - HDL ADVISOR - The RAM <Mram_registros_ren> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <rf_wr>         | high     |
+    |     addrA          | connected to signal <rw>            |          |
+    |     diA            | connected to signal <dw>            |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     addrB          | connected to signal <rt>            |          |
+    |     doB            | connected to signal <crt>           |          |
+    -----------------------------------------------------------------------
+Unit <Register_File> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 32x32-bit dual-port distributed RAM                   : 2
+# ROMs                                                 : 1
+ 9x32-bit ROM                                          : 1
+# Adders/Subtractors                                   : 3
+ 32-bit adder                                          : 2
+ 32-bit addsub                                         : 1
+# Registers                                            : 32
+ Flip-Flops                                            : 32
+# Latches                                              : 9
+ 32-bit latch                                          : 8
+ 5-bit latch                                           : 1
+# Comparators                                          : 2
+ 32-bit comparator equal                               : 1
+ 32-bit comparator less                                : 1
+# Multiplexers                                         : 1
+ 32-bit 8-to-1 multiplexer                             : 1
+# Logic shifters                                       : 2
+ 32-bit shifter logical left                           : 1
+ 32-bit shifter logical right                          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Procesador_Monociclo> ...
+
+Optimizing unit <Program_Counter> ...
+
+Optimizing unit <ALU> ...
+
+Optimizing unit <Data_Memory> ...
+
+Optimizing unit <MUX_RW> ...
+WARNING:Xst:1710 - FF/Latch <rw_mux/rw_2> (without init value) has a constant value of 0 in block <Procesador_Monociclo>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <PC_adress/pc_31> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_30> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_29> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_28> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_27> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_26> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_25> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_24> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_23> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_22> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_21> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_20> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_19> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_18> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_17> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_16> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_15> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_14> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_13> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_12> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_11> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_10> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_9> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_8> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_7> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_6> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_1> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <PC_adress/pc_0> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_31> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_30> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_29> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_28> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_27> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_26> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_25> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_24> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_23> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_22> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_21> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_20> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_19> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_18> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_17> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_16> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_15> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_14> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_13> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_12> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_11> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_10> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_9> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_8> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_7> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_6> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_5> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_4> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_3> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_2> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_1> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_0_0> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_31> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_30> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_29> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_28> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_27> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_26> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_25> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_24> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_23> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_22> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_21> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_20> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_19> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_18> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_17> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_16> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_15> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_14> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_13> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_12> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_11> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_10> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_9> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_8> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_7> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_6> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_5> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_4> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_3> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_2> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_1> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_1_0> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_31> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_30> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_29> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_28> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_27> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_26> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_25> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_24> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_23> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_22> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_21> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_20> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_19> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_18> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_17> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_16> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_15> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_14> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_13> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_12> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_11> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_10> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_9> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_8> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_7> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_6> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_5> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_4> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_3> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_2> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_1> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_2_0> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_31> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_30> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_29> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_28> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_27> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_26> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_25> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_24> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_23> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_22> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_21> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_20> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_19> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_18> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_17> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_16> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_15> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_14> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_13> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_12> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_11> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_10> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_9> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_8> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_7> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_6> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_5> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_4> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_3> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_2> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_1> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_3_0> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_31> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_30> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_29> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_28> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_27> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_26> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_25> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_24> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_23> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_22> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_21> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_20> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_19> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_18> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_17> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_16> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_15> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_14> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_13> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_12> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_11> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_10> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_9> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_8> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_7> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_6> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_5> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_4> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_3> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_2> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_1> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_4_0> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_31> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_30> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_29> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_28> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_27> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_26> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_25> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_24> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_23> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_22> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_21> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_20> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_19> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_18> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_17> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_16> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_15> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_14> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_13> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_12> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_11> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_10> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_9> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_8> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_7> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_6> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_5> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_4> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_3> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_2> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_1> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_5_0> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_31> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_30> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_29> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_28> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_27> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_26> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_25> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_24> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_23> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_22> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_21> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_20> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_19> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_18> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_17> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_16> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_15> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_14> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_13> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_12> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_11> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_10> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_9> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_8> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_7> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_6> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_5> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_4> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_3> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_2> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_1> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_6_0> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_31> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_30> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_29> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_28> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_27> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_26> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_25> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_24> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_23> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_22> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_21> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_20> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_19> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_18> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_17> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_16> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_15> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_14> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_13> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_12> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_11> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_10> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_9> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_8> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_7> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_6> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_5> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_4> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_3> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_2> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_1> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:2677 - Node <dato_memoria/memory_7_0> of sequential type is unconnected in block <Procesador_Monociclo>.
+WARNING:Xst:1294 - Latch <rw_mux/rw_4> is equivalent to a wire in block <Procesador_Monociclo>.
+WARNING:Xst:1294 - Latch <rw_mux/rw_3> is equivalent to a wire in block <Procesador_Monociclo>.
+WARNING:Xst:1294 - Latch <rw_mux/rw_1> is equivalent to a wire in block <Procesador_Monociclo>.
+WARNING:Xst:1294 - Latch <rw_mux/rw_0> is equivalent to a wire in block <Procesador_Monociclo>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Procesador_Monociclo, actual ratio is 0.
+FlipFlop PC_adress/pc_2 has been replicated 2 time(s)
+FlipFlop PC_adress/pc_3 has been replicated 1 time(s)
+FlipFlop PC_adress/pc_4 has been replicated 1 time(s)
+FlipFlop PC_adress/pc_5 has been replicated 2 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 10
+ Flip-Flops                                            : 10
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Procesador_Monociclo.ngr
+Top Level Output File Name         : Procesador_Monociclo
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 34
+
+Cell Usage :
+# BELS                             : 275
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 4
+#      LUT2                        : 2
+#      LUT3                        : 4
+#      LUT4                        : 69
+#      LUT5                        : 36
+#      LUT6                        : 53
+#      MUXCY                       : 64
+#      VCC                         : 1
+#      XORCY                       : 40
+# FlipFlops/Latches                : 10
+#      FD                          : 10
+# RAMS                             : 14
+#      RAM32M                      : 10
+#      RAM32X1D                    : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 33
+#      OBUF                        : 33
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vlx110tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              10  out of  69120     0%  
+ Number of Slice LUTs:                  217  out of  69120     0%  
+    Number used as Logic:               169  out of  69120     0%  
+    Number used as Memory:               48  out of  17920     0%  
+       Number used as RAM:               48
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    219
+   Number with an unused Flip Flop:     209  out of    219    95%  
+   Number with an unused LUT:             2  out of    219     0%  
+   Number of fully used LUT-FF pairs:     8  out of    219     3%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          34
+ Number of bonded IOBs:                  34  out of    640     5%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 24    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 5.753ns (Maximum Frequency: 173.822MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 7.896ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.753ns (frequency: 173.822MHz)
+  Total number of paths / destination ports: 62783 / 156
+-------------------------------------------------------------------------
+Delay:               5.753ns (Levels of Logic = 21)
+  Source:            PC_adress/pc_5_1 (FF)
+  Destination:       Archivo_Registro/Mram_registros_ren1 (RAM)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: PC_adress/pc_5_1 to Archivo_Registro/Mram_registros_ren1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               4   0.471   0.805  PC_adress/pc_5_1 (PC_adress/pc_5_1)
+     LUT4:I0->O           17   0.094   0.424  Instruction/Mrom_inst201 (Instruction/Mrom_inst20)
+     RAM32M:ADDRA4->DOA0    2   0.345   0.485  Archivo_Registro/Mram_registros_ren1 (crt<0>)
+     LUT5:I4->O            3   0.094   0.721  alu_mux/alu_input<0>1 (alu_input<0>)
+     LUT4:I1->O            1   0.094   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_lut<0> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<0> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<1> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<2> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<3> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<4> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<5> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<6> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<7> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<8> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<9> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<9>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<10> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<10>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<11> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<11>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<12> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<12>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<13> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<13>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<14> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<14>)
+     MUXCY:CI->O           1   0.254   0.480  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<15> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<15>)
+     LUT6:I5->O            3   0.094   0.347  Unidad_Aritmeticologica/alu_output<0>11 (alu_output_0_OBUF)
+     RAM32M:DIA0               0.309          Archivo_Registro/Mram_registros_ren1
+    ----------------------------------------
+    Total                      5.753ns (2.491ns logic, 3.262ns route)
+                                       (43.3% logic, 56.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 27410 / 33
+-------------------------------------------------------------------------
+Offset:              7.896ns (Levels of Logic = 22)
+  Source:            PC_adress/pc_5_1 (FF)
+  Destination:       alu_output<0> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: PC_adress/pc_5_1 to alu_output<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               4   0.471   0.805  PC_adress/pc_5_1 (PC_adress/pc_5_1)
+     LUT4:I0->O           17   0.094   0.424  Instruction/Mrom_inst201 (Instruction/Mrom_inst20)
+     RAM32M:ADDRA4->DOA0    2   0.345   0.485  Archivo_Registro/Mram_registros_ren1 (crt<0>)
+     LUT5:I4->O            3   0.094   0.721  alu_mux/alu_input<0>1 (alu_input<0>)
+     LUT4:I1->O            1   0.094   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_lut<0> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<0> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<1> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<2> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<3> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<4> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<5> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<6> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<7> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<8> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<9> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<9>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<10> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<10>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<11> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<11>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<12> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<12>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<13> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<13>)
+     MUXCY:CI->O           1   0.026   0.000  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<14> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<14>)
+     MUXCY:CI->O           1   0.254   0.480  Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<15> (Unidad_Aritmeticologica/Mcompar_alu_output_cmp_lt0000_cy<15>)
+     LUT6:I5->O            3   0.094   0.347  Unidad_Aritmeticologica/alu_output<0>11 (alu_output_0_OBUF)
+     OBUF:I->O                 2.452          alu_output_0_OBUF (alu_output<0>)
+    ----------------------------------------
+    Total                      7.896ns (4.634ns logic, 3.262ns route)
+                                       (58.7% logic, 41.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 26.00 secs
+Total CPU time to Xst completion: 25.52 secs
+ 
+--> 
+
+Total memory usage is 345856 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  303 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
+

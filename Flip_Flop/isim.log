@@ -1,0 +1,16 @@
+ISim log file
+Running: C:\Users\XergioAleX\Documents\Xilinx Projects\Flip_Flop\Flip_Flop_Flip_Flop_sch_tb_isim_beh.exe -gui -tclbatch isim.cmd -wdb C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop_Flip_Flop_sch_tb_isim_beh.wdb 
+ISim M.81d (signature 0x12940baa)
+----------------------------------------------------------------------
+INFO:Security:65 - Your license for 'ISIM' is for trial use only.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

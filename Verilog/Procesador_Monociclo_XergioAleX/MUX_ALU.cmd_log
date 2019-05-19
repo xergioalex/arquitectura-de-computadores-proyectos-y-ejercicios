@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {C:/Users/XergioAleX/Documents/Xilinx Projects/Verilog/Procesador_Monociclo_XergioAleX/Procesador_Monociclo.v} -lang verilog -prj Procesador_Monociclo_XergioAleX -o MUX_ALU.spl -module MUX_ALU -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 MUX_ALU.spl {C:/Users/XergioAleX/Documents/Xilinx Projects/Verilog/Procesador_Monociclo_XergioAleX/MUX_ALU.sym} 

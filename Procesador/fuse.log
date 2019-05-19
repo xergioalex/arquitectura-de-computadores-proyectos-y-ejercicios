@@ -1,0 +1,32 @@
+Running: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador/tb_procesador_isim_beh.exe -prj C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador/tb_procesador_beh.prj work.tb_procesador work.glbl 
+ISim M.81d (signature 0x12940baa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file \"C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador/procesador.v\" into library work
+Analyzing Verilog file \"C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador/tb_procesador.v\" into library work
+Analyzing Verilog file \"C:/Xilinx/12.4/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module Program_Counter
+Compiling module Data_Memory
+Compiling module Instruction_Memory
+Compiling module Control_Unit
+Compiling module Register_File
+Compiling module SEU
+Compiling module ALU
+Compiling module Mux_Alu
+Compiling module Mux_Pc
+Compiling module Mux_Dw
+Compiling module Mux_Rw
+Compiling module Sum_Pc
+Compiling module Sum_Shift
+Compiling module procesador
+Compiling module tb_procesador
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 16 Verilog Units
+Built simulation executable C:/Users/XergioAleX/Documents/Xilinx Projects/Procesador/tb_procesador_isim_beh.exe
+Fuse Memory Usage: 16796 KB
+Fuse CPU Usage: 326 ms

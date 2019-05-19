@@ -1,0 +1,27 @@
+Running: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop_Flip_Flop_sch_tb_isim_beh.exe -prj C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop_Flip_Flop_sch_tb_beh.prj work.Flip_Flop_Flip_Flop_sch_tb work.glbl 
+ISim M.81d (signature 0x12940baa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file \"C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/PTD.v\" into library work
+Analyzing Verilog file \"C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.vf\" into library work
+Analyzing Verilog file \"C:/Xilinx/12.4/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Parsing VHDL file "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package numeric_std from library ieee
+Using precompiled package vl_types from library vl
+Compiling module glbl
+Compiling module NAND2
+Compiling module PTD
+Compiling module Flip_Flop
+Compiling package vcomponents
+Compiling architecture behavioral of entity flip_flop_flip_flop_sch_tb
+Time Resolution for simulation is 1ps.
+Compiled 6 VHDL Units
+Compiled 4 Verilog Units
+Built simulation executable C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop_Flip_Flop_sch_tb_isim_beh.exe
+Fuse Memory Usage: 31636 KB
+Fuse CPU Usage: 608 ms

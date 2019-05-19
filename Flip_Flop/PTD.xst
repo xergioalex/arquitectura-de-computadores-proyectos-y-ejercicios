@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/xst"
+elaborate
+-ifn PTD.prj
+-ifmt mixed

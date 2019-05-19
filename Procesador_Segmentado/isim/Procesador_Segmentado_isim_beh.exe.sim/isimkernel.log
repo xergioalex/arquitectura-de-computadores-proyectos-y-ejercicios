@@ -1,0 +1,28 @@
+Command line:
+   Procesador_Segmentado_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49744
+
+Wed Jan 04 13:11:28 2012
+
+
+ Elaboration Time: 0.156 sec
+
+ Current Memory Usage: 501.764 Meg
+
+ Total Signals          : 187
+ Total Nets             : 1020
+ Total Signal Drivers   : 70
+ Total Blocks           : 47
+ Total Primitive Blocks : 46
+ Total Processes        : 148
+ Total Traceable Variables  : 70
+ Total Scalar Nets and Variables : 3374
+
+ Total Simulation Time: 0.2184 sec
+
+ Current Memory Usage: 501.764 Meg
+
+Wed Jan 04 13:11:52 2012
+

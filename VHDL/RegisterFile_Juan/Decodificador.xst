@@ -1,0 +1,5 @@
+set -tmpdir "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/xst/projnav.tmp"
+set -xsthdpdir "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/xst"
+elaborate
+-ifn Decodificador.prj
+-ifmt mixed

@@ -1,0 +1,10 @@
+[Inputs]
+alu_src_b
+=crt[31:0]=
+=inmediate_ext[31:0]=
+[Outputs]
+=alu_input[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel MUX_ALU
+

@@ -1,0 +1,4 @@
+verilog work "PTD.v"
+verilog work "Flip_Flop.vf"
+vhdl work "tb.vhd"
+verilog work "C:/Xilinx/12.4/ISE_DS/ISE//verilog/src/glbl.v"

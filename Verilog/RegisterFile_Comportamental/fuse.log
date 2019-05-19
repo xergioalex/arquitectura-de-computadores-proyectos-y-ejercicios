@@ -1,0 +1,20 @@
+Running: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/XergioAleX/Documents/Xilinx Projects/Verilog/RegisterFile_Comportamental/tb_registerFile_verilog_isim_beh.exe -prj C:/Users/XergioAleX/Documents/Xilinx Projects/Verilog/RegisterFile_Comportamental/tb_registerFile_verilog_beh.prj work.tb_registerFile_verilog work.glbl 
+ISim M.81d (signature 0x12940baa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file \"C:/Users/XergioAleX/Documents/Xilinx Projects/Verilog/RegisterFile_Comportamental/Register_File.v\" into library work
+Analyzing Verilog file \"C:/Users/XergioAleX/Documents/Xilinx Projects/Verilog/RegisterFile_Comportamental/tb_registerFile_verilog.v\" into library work
+Analyzing Verilog file \"C:/Xilinx/12.4/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+WARNING:HDLCompiler:97 - "C:/Users/XergioAleX/Documents/Xilinx Projects/Verilog/RegisterFile_Comportamental/Register_File.v" Line 13: crs was previously declared with a different range
+Completed static elaboration
+Compiling module Register_File
+Compiling module tb_registerFile_verilog
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable C:/Users/XergioAleX/Documents/Xilinx Projects/Verilog/RegisterFile_Comportamental/tb_registerFile_verilog_isim_beh.exe
+Fuse Memory Usage: 16188 KB
+Fuse CPU Usage: 342 ms

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/ProcesadorMonociclo/Register_File.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/ProcesadorMonociclo/Register_File.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/ProcesadorMonociclo/Register_File.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/ProcesadorMonociclo/Register_File.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/ProcesadorMonociclo/Register_File.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/ProcesadorMonociclo/Register_File.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx110t-ff1136-1 "Register_File.ngc" Register_File.ngd  
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/ProcesadorMonociclo/Register_File.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/ProcesadorMonociclo/Register_File.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/ProcesadorMonociclo/Register_File.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/ProcesadorMonociclo/Register_File.syr" 

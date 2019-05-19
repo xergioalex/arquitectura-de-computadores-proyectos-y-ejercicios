@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Universidad\Semestre 6\Arquitectura de Computadores\Xilinx Projects\Procesador_Segmentado\Procesador_Segmentado.ncd
+OUTFILE=D:\Universidad\Semestre 6\Arquitectura de Computadores\Xilinx Projects\Procesador_Segmentado\Procesador_Segmentado.bit
+FAMILY=Virtex5
+PART=xc5vlx110t-3ff1136
+WORKINGDIR=D:\Universidad\Semestre 6\Arquitectura de Computadores\Xilinx Projects\Procesador_Segmentado
+LICENSE=ISE
+USER_INFO=0_0_0

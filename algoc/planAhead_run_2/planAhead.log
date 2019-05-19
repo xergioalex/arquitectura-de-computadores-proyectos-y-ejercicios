@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# PlanAhead v12.4
+# Build 108585 by hdbuild on Tue Nov  9 17:32:56 MST 2010
+# Start of session at: Fri Nov 25 08:24:05 2011
+# Process ID: 3088
+# Log file: C:/Users/XergioAleX/Documents/Xilinx Projects/algoc/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/XergioAleX/Documents/Xilinx Projects/algoc/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [HD-Licensing 0] Attempting to get a license: PlanAhead
+INFO: [HD-Licensing 1] Got a license: PlanAhead
+INFO: [HD-ArchReader 0] Loading parts and site information from C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\arch.xml
+INFO: [HD-RTPRIM 0] Parsing RTL primitives file 'C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+INFO: [HD-RTPRIM 1] Finished Parsing RTL primitives file 'C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml'
+start_gui -source {C:/Users/XergioAleX/Documents/Xilinx Projects/algoc/pa.fromHdl.tcl}
+# create_project -name algoc -dir "C:/Users/XergioAleX/Documents/Xilinx Projects/algoc/planAhead_run_2" -part xc5vlx30ff324-1
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property top algoc $srcset
+# set_param project.paUcfFile  "algoc.ucf"
+# set hdlfile [add_files [list {algoc.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# add_files "algoc.ucf" -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc5vlx30ff324-1
+INFO: [HD-RTLIN 2] Parsing VHDL file "C:\Xilinx\12.4\ISE_DS\PlanAhead\parts\xilinx\rtl\lib\synplify\synattr.vhd" into library synplify
+INFO: [HD-RTLIN 2] Parsing package <attributes>.
+INFO: [HD-RTLIN 2] Parsing Verilog file "C:\Users\XergioAleX\Documents\Xilinx Projects\algoc\algoc.v" into library work
+INFO: [HD-RTLIN 2] Parsing module <algoc>.
+WARN: [HD-RTLIN 1] C:\Users\XergioAleX\Documents\Xilinx Projects\algoc\algoc.v(8) Redeclaration of ansi port so is not allowed
+WARN: [HD-RTLIN 1] C:\Users\XergioAleX\Documents\Xilinx Projects\algoc\algoc.v(6) Illegal initial value of output port so for module algoc ignored
+ERROR: [HD-RTLIN 3] C:\Users\XergioAleX\Documents\Xilinx Projects\algoc\algoc.v(8) assing is an unknown type
+ERROR: [HD-RTLIN 3] C:\Users\XergioAleX\Documents\Xilinx Projects\algoc\algoc.v(3) Module <algoc> ignored due to previous errors.
+INFO: [HD-RTLIN 2] Verilog file C:\Users\XergioAleX\Documents\Xilinx Projects\algoc\algoc.v ignored due to errors
+ERROR: Unable to process your HDL design.  Please review Elaboration Messages. 
+exit
+INFO: [HD-Application 0] Exiting PlanAhead...
+INFO: [HD-Licensing 2] Releasing license: PlanAhead

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/XergioAleX/Documents/Xilinx Projects/ProcesadorMonociclo/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/XergioAleX/Documents/Xilinx Projects/ProcesadorMonociclo/xst"
+elaborate
+-ifn Multiplexor.prj
+-ifmt mixed

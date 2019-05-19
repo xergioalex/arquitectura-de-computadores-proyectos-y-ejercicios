@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Sumador_CuatroBits.vhd -prj RegisterFile -o Sumador_CuatroBits.spl -module Sumador_CuatroBits -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 Sumador_CuatroBits.spl {C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Sumador_CuatroBits.sym} 

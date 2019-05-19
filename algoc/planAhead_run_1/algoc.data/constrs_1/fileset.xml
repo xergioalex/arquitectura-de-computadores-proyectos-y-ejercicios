@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DARoots Version="1" Minor="7">
+	<FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+		<Filter Type="Constrs"/>
+		<File Path="C:/Users/XergioAleX/Documents/Xilinx Projects/algoc/algoc.ucf">
+		</File>
+		<Config>
+			<Option Name="TargetPart" Val="xc5vlx30ff324-1"/>
+		</Config>
+	</FileSet>
+</DARoots>
+

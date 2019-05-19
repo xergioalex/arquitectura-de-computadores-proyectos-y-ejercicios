@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/XergioAleX/Documents/Xilinx Projects/Verilog/Register_File_Estructurado_Xergio/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/XergioAleX/Documents/Xilinx Projects/Verilog/Register_File_Estructurado_Xergio/xst"
+elaborate
+-ifn Register_FIle_Xergio.prj
+-ifmt mixed

@@ -1,0 +1,7 @@
+[Inputs]
+Out_Dec_R
+Clk
+=Dw_Reg[3:0]=
+[Outputs]
+=Q[3:0]=
+[BiDir]

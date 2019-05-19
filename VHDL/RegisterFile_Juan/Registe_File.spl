@@ -1,0 +1,11 @@
+[Inputs]
+Clk_RF
+Rf
+=Rs[1:0]=
+=Rt[1:0]=
+=Dw[3:0]=
+=Rw[1:0]=
+[Outputs]
+=Crs[3:0]=
+=Crt[3:0]=
+[BiDir]

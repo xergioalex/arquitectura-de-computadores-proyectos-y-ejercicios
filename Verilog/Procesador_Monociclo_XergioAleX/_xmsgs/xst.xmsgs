@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="261" delta="old" ><arg fmt="%s" index="1">&quot;Procesador_Monociclo.v&quot; line 22 </arg>Connection to output port &apos;<arg fmt="%s" index="2">dw_sel</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="261" delta="old" ><arg fmt="%s" index="1">&quot;Procesador_Monociclo.v&quot; line 22 </arg>Connection to output port &apos;<arg fmt="%s" index="2">rw_sel</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;Procesador_Monociclo.v&quot; line 26 </arg>Connection to input port &apos;<arg fmt="%s" index="2">alu_op</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;Procesador_Monociclo.v&quot; line 27 </arg>Connection to input port &apos;<arg fmt="%s" index="2">pc_inc</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;Procesador_Monociclo.v&quot; line 32 </arg>Connection to input port &apos;<arg fmt="%s" index="2">rd</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;Procesador_Monociclo.v&quot; line 32 </arg>Connection to input port &apos;<arg fmt="%s" index="2">rt</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;Procesador_Monociclo.v&quot; line 32 </arg>Connection to input port &apos;<arg fmt="%s" index="2">ra</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="261" delta="old" ><arg fmt="%s" index="1">&quot;Procesador_Monociclo.v&quot; line 32 </arg>Connection to output port &apos;<arg fmt="%s" index="2">rw</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">Procesador_Monociclo.v</arg>&quot; line <arg fmt="%d" index="2">20</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Instruction_Memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">Procesador_Monociclo.v</arg>&quot; line <arg fmt="%d" index="2">21</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Program_Counter</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">Procesador_Monociclo.v</arg>&quot; line <arg fmt="%d" index="2">22</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Control_Unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">Procesador_Monociclo.v</arg>&quot; line <arg fmt="%d" index="2">23</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Register_File</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">Procesador_Monociclo.v</arg>&quot; line <arg fmt="%d" index="2">24</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SEU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">Procesador_Monociclo.v</arg>&quot; line <arg fmt="%d" index="2">25</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">MUX_ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">Procesador_Monociclo.v</arg>&quot; line <arg fmt="%d" index="2">26</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ALU</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">Procesador_Monociclo.v</arg>&quot; line <arg fmt="%d" index="2">27</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Anpersan</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">Procesador_Monociclo.v</arg>&quot; line <arg fmt="%d" index="2">28</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Sumador</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">Procesador_Monociclo.v</arg>&quot; line <arg fmt="%d" index="2">29</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">Sumador</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">Procesador_Monociclo.v</arg>&quot; line <arg fmt="%d" index="2">30</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">MUX_PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">Procesador_Monociclo.v</arg>&quot; line <arg fmt="%d" index="2">32</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">MUX_RW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="905" delta="new" >&quot;<arg fmt="%s" index="1">Procesador_Monociclo.v</arg>&quot; line <arg fmt="%d" index="2">119</arg>: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;address&gt;, &lt;data_wr&gt;, &lt;memory&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="905" delta="new" >&quot;<arg fmt="%s" index="1">Procesador_Monociclo.v</arg>&quot; line <arg fmt="%d" index="2">133</arg>: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;alu_output&gt;, &lt;pc_inc&gt;, &lt;data_rd&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">address&lt;31:3&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">data_rd</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_0</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2371" delta="old" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_1</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2371" delta="old" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_2</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2371" delta="old" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_3</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2371" delta="old" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_4</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2371" delta="old" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">memory_5</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2371" delta="old" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">32</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">dw</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="2371" delta="old" >HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">alu_op&lt;4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">memoria_rd_rw</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">0</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">5</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">6</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">7</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">8</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">9</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">10</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">11</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">12</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">13</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">14</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">15</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">16</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">17</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">18</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">19</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">20</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">21</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">22</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">23</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">24</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">25</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">26</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">27</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">28</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">29</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">30</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">31</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_0</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_1</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_2</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_3</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_4</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_5</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_6</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_7</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_8</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_9</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_10</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_11</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_12</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_13</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_14</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_15</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_16</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_17</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_18</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_19</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_20</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_21</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_22</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_23</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_24</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_25</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_26</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_27</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_28</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_29</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_30</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1294" delta="old" >Latch &lt;<arg fmt="%s" index="1">dw_31</arg>&gt; is equivalent to a wire in block &lt;<arg fmt="%s" index="2">MUX_DW</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/data_rd_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_0_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_1_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_2_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_3_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_4_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">memoria_rd_rw/memory_5_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Procesador_Monociclo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;31&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;30&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;29&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;28&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;27&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;26&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;25&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;24&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;23&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;22&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;21&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;20&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;19&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;18&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;17&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;16&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;15&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;14&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;13&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;12&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;11&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;10&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;9&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;8&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;7&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;6&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;5&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;4&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;3&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;2&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;1&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">alu_out&lt;0&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ALU</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+</messages>
+

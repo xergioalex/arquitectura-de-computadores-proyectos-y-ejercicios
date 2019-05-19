@@ -1,0 +1,28 @@
+Command line:
+   Flip_Flop_Flip_Flop_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49364
+
+Fri Dec 09 13:55:21 2011
+
+
+ Elaboration Time: 0.171601 sec
+
+ Current Memory Usage: 499.761 Meg
+
+ Total Signals          : 62
+ Total Nets             : 49
+ Total Signal Drivers   : 17
+ Total Blocks           : 12
+ Total Primitive Blocks : 10
+ Total Processes        : 20
+ Total Traceable Variables  : 33
+ Total Scalar Nets and Variables : 614
+
+ Total Simulation Time: 0.171601 sec
+
+ Current Memory Usage: 499.761 Meg
+
+Fri Dec 09 13:56:07 2011
+

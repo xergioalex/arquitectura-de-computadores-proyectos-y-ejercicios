@@ -1,0 +1,783 @@
+Release 12.4 - xst M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Reading design: Procesador_Monociclo.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Procesador_Monociclo.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Procesador_Monociclo"
+Output Format                      : NGC
+Target Device                      : xc5vlx110t-1-ff1136
+
+---- Source Options
+Top Module Name                    : Procesador_Monociclo
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Off
+Reduce Control Sets                : Off
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Procesador_Monociclo.v" in library work
+Module <Procesador_Monociclo> compiled
+Module <Control_Unit> compiled
+Module <Program_Counter> compiled
+Module <Instruccion_Memory> compiled
+Module <Register_File> compiled
+Module <Data_Memory> compiled
+Module <ALU> compiled
+Module <SEU> compiled
+Module <MUX_ALU> compiled
+Module <MUX_DW> compiled
+Module <MUX_RW> compiled
+Module <MUX_PC> compiled
+Module <Sumador> compiled
+Module <Anpersan> compiled
+No errors in compilation
+Analysis of file <"Procesador_Monociclo.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <Procesador_Monociclo> in library <work>.
+
+Analyzing hierarchy for module <Register_File> in library <work>.
+
+Analyzing hierarchy for module <SEU> in library <work>.
+
+Analyzing hierarchy for module <MUX_ALU> in library <work>.
+
+Analyzing hierarchy for module <MUX_PC> in library <work>.
+
+Analyzing hierarchy for module <MUX_RW> in library <work>.
+
+Analyzing hierarchy for module <Data_Memory> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Procesador_Monociclo>.
+WARNING:Xst:2211 - "Procesador_Monociclo.v" line 16: Instantiating black box module <Program_Counter>.
+WARNING:Xst:2211 - "Procesador_Monociclo.v" line 17: Instantiating black box module <Instruccion_Memory>.
+WARNING:Xst:2211 - "Procesador_Monociclo.v" line 18: Instantiating black box module <Control_Unit>.
+WARNING:Xst:2211 - "Procesador_Monociclo.v" line 22: Instantiating black box module <ALU>.
+WARNING:Xst:2211 - "Procesador_Monociclo.v" line 23: Instantiating black box module <Anpersan>.
+WARNING:Xst:2211 - "Procesador_Monociclo.v" line 24: Instantiating black box module <Sumador>.
+WARNING:Xst:2211 - "Procesador_Monociclo.v" line 25: Instantiating black box module <Sumador>.
+WARNING:Xst:2211 - "Procesador_Monociclo.v" line 27: Instantiating black box module <MUX_DW>.
+Module <Procesador_Monociclo> is correct for synthesis.
+ 
+Analyzing module <Register_File> in library <work>.
+Module <Register_File> is correct for synthesis.
+ 
+Analyzing module <SEU> in library <work>.
+WARNING:Xst:905 - "Procesador_Monociclo.v" line 140: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <inmediate>
+Module <SEU> is correct for synthesis.
+ 
+Analyzing module <MUX_ALU> in library <work>.
+WARNING:Xst:905 - "Procesador_Monociclo.v" line 156: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <crt>, <inmediate_ext>
+Module <MUX_ALU> is correct for synthesis.
+ 
+Analyzing module <MUX_PC> in library <work>.
+WARNING:Xst:905 - "Procesador_Monociclo.v" line 207: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <pc_inc>, <pc_equal>, <pc_jump>, <pc_jr>
+Module <MUX_PC> is correct for synthesis.
+ 
+Analyzing module <MUX_RW> in library <work>.
+WARNING:Xst:905 - "Procesador_Monociclo.v" line 191: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <rd>, <rt>, <ra>
+Module <MUX_RW> is correct for synthesis.
+ 
+Analyzing module <Data_Memory> in library <work>.
+WARNING:Xst:905 - "Procesador_Monociclo.v" line 86: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <address>, <data_wr>, <dw>
+Module <Data_Memory> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Register_File>.
+    Related source file is "Procesador_Monociclo.v".
+    Found 32x32-bit dual-port RAM <Mram_r> for signal <r>.
+    Found 32x32-bit dual-port RAM <Mram_r_ren> for signal <r>.
+    Summary:
+	inferred   2 RAM(s).
+Unit <Register_File> synthesized.
+
+
+Synthesizing Unit <SEU>.
+    Related source file is "Procesador_Monociclo.v".
+Unit <SEU> synthesized.
+
+
+Synthesizing Unit <MUX_ALU>.
+    Related source file is "Procesador_Monociclo.v".
+WARNING:Xst:737 - Found 32-bit latch for signal <alu_input>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+Unit <MUX_ALU> synthesized.
+
+
+Synthesizing Unit <MUX_PC>.
+    Related source file is "Procesador_Monociclo.v".
+Unit <MUX_PC> synthesized.
+
+
+Synthesizing Unit <MUX_RW>.
+    Related source file is "Procesador_Monociclo.v".
+Unit <MUX_RW> synthesized.
+
+
+Synthesizing Unit <Data_Memory>.
+    Related source file is "Procesador_Monociclo.v".
+WARNING:Xst:647 - Input <address<31:3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:737 - Found 32-bit latch for signal <data_rd>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 32-bit latch for signal <dw_0>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 32-bit latch for signal <dw_1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 32-bit latch for signal <dw_2>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 32-bit latch for signal <dw_3>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 32-bit latch for signal <dw_4>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 32-bit latch for signal <dw_5>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 32-bit 8-to-1 multiplexer for signal <dw_0$mux0000>.
+    Found 32-bit 8-to-1 multiplexer for signal <dw_1$mux0000>.
+    Found 32-bit 8-to-1 multiplexer for signal <dw_2$mux0000>.
+    Found 32-bit 8-to-1 multiplexer for signal <dw_3$mux0000>.
+    Found 32-bit 8-to-1 multiplexer for signal <dw_4$mux0000>.
+    Found 32-bit 8-to-1 multiplexer for signal <dw_5$mux0000>.
+    Summary:
+	inferred 224 Multiplexer(s).
+Unit <Data_Memory> synthesized.
+
+
+Synthesizing Unit <Procesador_Monociclo>.
+    Related source file is "Procesador_Monociclo.v".
+WARNING:Xst:1306 - Output <alu_out> is never assigned.
+WARNING:Xst:646 - Signal <alu_op<4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <Procesador_Monociclo> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 32x32-bit dual-port RAM                               : 2
+# Latches                                              : 8
+ 32-bit latch                                          : 8
+# Multiplexers                                         : 7
+ 32-bit 6-to-1 multiplexer                             : 1
+ 32-bit 8-to-1 multiplexer                             : 6
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <0>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <1>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <2>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <3>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <4>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <5>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <6>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <7>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <8>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <9>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <10>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <11>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <12>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <13>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <14>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <15>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <16>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <17>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <18>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <19>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <20>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <21>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <22>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <23>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <24>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <25>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <26>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <27>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <28>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <29>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <30>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <31>.
+
+Synthesizing (advanced) Unit <Register_File>.
+INFO:Xst:3031 - HDL ADVISOR - The RAM <Mram_r> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <rwe>           | high     |
+    |     addrA          | connected to signal <rw>            |          |
+    |     diA            | connected to signal <dw>            |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     addrB          | connected to signal <rs>            |          |
+    |     doB            | connected to signal <crs>           |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3031 - HDL ADVISOR - The RAM <Mram_r_ren> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <rwe>           | high     |
+    |     addrA          | connected to signal <rw>            |          |
+    |     diA            | connected to signal <dw>            |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     addrB          | connected to signal <rt>            |          |
+    |     doB            | connected to signal <crt>           |          |
+    -----------------------------------------------------------------------
+Unit <Register_File> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 32x32-bit dual-port distributed RAM                   : 2
+# Latches                                              : 8
+ 32-bit latch                                          : 8
+# Multiplexers                                         : 7
+ 32-bit 6-to-1 multiplexer                             : 1
+ 32-bit 8-to-1 multiplexer                             : 6
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1294 - Latch <31> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <30> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <29> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <28> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <27> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <26> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <25> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <24> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <23> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <22> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <21> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <20> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <19> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <18> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <17> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <16> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <15> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <14> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <13> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <12> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <11> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <10> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <9> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <8> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <7> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <6> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <5> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <4> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <3> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <2> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <1> is equivalent to a wire in block <LPM_LATCH_1>.
+WARNING:Xst:1294 - Latch <0> is equivalent to a wire in block <LPM_LATCH_1>.
+
+Optimizing unit <Procesador_Monociclo> ...
+
+Optimizing unit <Data_Memory> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Procesador_Monociclo, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Procesador_Monociclo.ngr
+Top Level Output File Name         : Procesador_Monociclo
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 33
+
+Cell Usage :
+# BELS                             : 365
+#      GND                         : 1
+#      LUT2                        : 15
+#      LUT3                        : 54
+#      LUT5                        : 6
+#      LUT6                        : 256
+#      MUXF7                       : 32
+#      VCC                         : 1
+# FlipFlops/Latches                : 224
+#      LD                          : 192
+#      LDE_1                       : 32
+# RAMS                             : 14
+#      RAM32M                      : 10
+#      RAM32X1D                    : 4
+# Clock Buffers                    : 8
+#      BUFG                        : 7
+#      BUFGP                       : 1
+# Others                           : 8
+#      ALU                         : 1
+#      Anpersan                    : 1
+#      Control_Unit                : 1
+#      Instruccion_Memory          : 1
+#      MUX_DW                      : 1
+#      Program_Counter             : 1
+#      Sumador                     : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vlx110tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             224  out of  69120     0%  
+ Number of Slice LUTs:                  379  out of  69120     0%  
+    Number used as Logic:               331  out of  69120     0%  
+    Number used as Memory:               48  out of  17920     0%  
+       Number used as RAM:               48
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    379
+   Number with an unused Flip Flop:     155  out of    379    40%  
+   Number with an unused LUT:             0  out of    379     0%  
+   Number of fully used LUT-FF pairs:   224  out of    379    59%  
+   Number of unique control sets:         7
+
+IO Utilization: 
+ Number of IOs:                          33
+ Number of bonded IOBs:                   1  out of    640     0%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                8  out of     32    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+----------------------------------------------------------+-------------------------------+-------+
+Clock Signal                                              | Clock buffer(FF name)         | Load  |
+----------------------------------------------------------+-------------------------------+-------+
+clk                                                       | BUFGP                         | 14    |
+dm_wr1                                                    | BUFG                          | 32    |
+memoria_rd_rw/dw_0_not00011(memoria_rd_rw/dw_0_not00012:O)| BUFG(*)(memoria_rd_rw/dw_0_31)| 32    |
+memoria_rd_rw/dw_1_not00011(memoria_rd_rw/dw_1_not00011:O)| BUFG(*)(memoria_rd_rw/dw_1_31)| 32    |
+memoria_rd_rw/dw_2_not00011(memoria_rd_rw/dw_2_not00011:O)| BUFG(*)(memoria_rd_rw/dw_2_31)| 32    |
+memoria_rd_rw/dw_3_not00011(memoria_rd_rw/dw_3_not00011:O)| BUFG(*)(memoria_rd_rw/dw_3_31)| 32    |
+memoria_rd_rw/dw_4_not00011(memoria_rd_rw/dw_4_not00011:O)| BUFG(*)(memoria_rd_rw/dw_4_31)| 32    |
+memoria_rd_rw/dw_5_not00011(memoria_rd_rw/dw_5_not00011:O)| BUFG(*)(memoria_rd_rw/dw_5_31)| 32    |
+----------------------------------------------------------+-------------------------------+-------+
+(*) These 6 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 1.729ns
+   Maximum output required time after clock: 2.371ns
+   Maximum combinational path delay: 1.499ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 308 / 168
+-------------------------------------------------------------------------
+Offset:              1.602ns (Levels of Logic = 1)
+  Source:            Control_Total:rw_sel (PAD)
+  Destination:       register_file/Mram_r_ren61 (RAM)
+  Destination Clock: clk rising
+
+  Data Path: Control_Total:rw_sel to register_file/Mram_r_ren61
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    Control_Unit:rw_sel    5   0.000   0.732  Control_Total (mux_rw/rw_cmp_eq0002)
+     LUT3:I0->O           14   0.094   0.407  mux_rw/rw<0>1 (rw<0>)
+     RAM32X1D:A0               0.369          register_file/Mram_r_ren61
+    ----------------------------------------
+    Total                      1.602ns (0.463ns logic, 1.139ns route)
+                                       (28.9% logic, 71.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'memoria_rd_rw/dw_5_not00011'
+  Total number of paths / destination ports: 320 / 32
+-------------------------------------------------------------------------
+Offset:              1.729ns (Levels of Logic = 2)
+  Source:            instruction:instruction<16> (PAD)
+  Destination:       memoria_rd_rw/dw_5_31 (LATCH)
+  Destination Clock: memoria_rd_rw/dw_5_not00011 falling
+
+  Data Path: instruction:instruction<16> to memoria_rd_rw/dw_5_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    Instruccion_Memory:instruction<16>   18   0.000   0.429  instruction (inst<16>)
+     RAM32M:ADDRA0->DOA0    7   0.345   0.743  register_file/Mram_r_ren1 (crt<0>)
+     LUT6:I3->O            1   0.094   0.000  memoria_rd_rw/Mmux_dw_5_mux000011 (memoria_rd_rw/dw_5_mux0000<0>)
+     LD:D                     -0.071          memoria_rd_rw/dw_5_0
+    ----------------------------------------
+    Total                      1.611ns (0.439ns logic, 1.172ns route)
+                                       (27.3% logic, 72.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'memoria_rd_rw/dw_4_not00011'
+  Total number of paths / destination ports: 320 / 32
+-------------------------------------------------------------------------
+Offset:              1.729ns (Levels of Logic = 2)
+  Source:            instruction:instruction<16> (PAD)
+  Destination:       memoria_rd_rw/dw_4_31 (LATCH)
+  Destination Clock: memoria_rd_rw/dw_4_not00011 falling
+
+  Data Path: instruction:instruction<16> to memoria_rd_rw/dw_4_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    Instruccion_Memory:instruction<16>   18   0.000   0.429  instruction (inst<16>)
+     RAM32M:ADDRA0->DOA0    7   0.345   0.743  register_file/Mram_r_ren1 (crt<0>)
+     LUT6:I3->O            1   0.094   0.000  memoria_rd_rw/Mmux_dw_4_mux000011 (memoria_rd_rw/dw_4_mux0000<0>)
+     LD:D                     -0.071          memoria_rd_rw/dw_4_0
+    ----------------------------------------
+    Total                      1.611ns (0.439ns logic, 1.172ns route)
+                                       (27.3% logic, 72.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'memoria_rd_rw/dw_3_not00011'
+  Total number of paths / destination ports: 320 / 32
+-------------------------------------------------------------------------
+Offset:              1.729ns (Levels of Logic = 2)
+  Source:            instruction:instruction<16> (PAD)
+  Destination:       memoria_rd_rw/dw_3_31 (LATCH)
+  Destination Clock: memoria_rd_rw/dw_3_not00011 falling
+
+  Data Path: instruction:instruction<16> to memoria_rd_rw/dw_3_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    Instruccion_Memory:instruction<16>   18   0.000   0.429  instruction (inst<16>)
+     RAM32M:ADDRA0->DOA0    7   0.345   0.743  register_file/Mram_r_ren1 (crt<0>)
+     LUT6:I3->O            1   0.094   0.000  memoria_rd_rw/Mmux_dw_3_mux000011 (memoria_rd_rw/dw_3_mux0000<0>)
+     LD:D                     -0.071          memoria_rd_rw/dw_3_0
+    ----------------------------------------
+    Total                      1.611ns (0.439ns logic, 1.172ns route)
+                                       (27.3% logic, 72.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'memoria_rd_rw/dw_2_not00011'
+  Total number of paths / destination ports: 320 / 32
+-------------------------------------------------------------------------
+Offset:              1.729ns (Levels of Logic = 2)
+  Source:            instruction:instruction<16> (PAD)
+  Destination:       memoria_rd_rw/dw_2_31 (LATCH)
+  Destination Clock: memoria_rd_rw/dw_2_not00011 falling
+
+  Data Path: instruction:instruction<16> to memoria_rd_rw/dw_2_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    Instruccion_Memory:instruction<16>   18   0.000   0.429  instruction (inst<16>)
+     RAM32M:ADDRA0->DOA0    7   0.345   0.743  register_file/Mram_r_ren1 (crt<0>)
+     LUT6:I3->O            1   0.094   0.000  memoria_rd_rw/Mmux_dw_2_mux000011 (memoria_rd_rw/dw_2_mux0000<0>)
+     LD:D                     -0.071          memoria_rd_rw/dw_2_0
+    ----------------------------------------
+    Total                      1.611ns (0.439ns logic, 1.172ns route)
+                                       (27.3% logic, 72.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'memoria_rd_rw/dw_1_not00011'
+  Total number of paths / destination ports: 320 / 32
+-------------------------------------------------------------------------
+Offset:              1.729ns (Levels of Logic = 2)
+  Source:            instruction:instruction<16> (PAD)
+  Destination:       memoria_rd_rw/dw_1_31 (LATCH)
+  Destination Clock: memoria_rd_rw/dw_1_not00011 falling
+
+  Data Path: instruction:instruction<16> to memoria_rd_rw/dw_1_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    Instruccion_Memory:instruction<16>   18   0.000   0.429  instruction (inst<16>)
+     RAM32M:ADDRA0->DOA0    7   0.345   0.743  register_file/Mram_r_ren1 (crt<0>)
+     LUT6:I3->O            1   0.094   0.000  memoria_rd_rw/Mmux_dw_1_mux000011 (memoria_rd_rw/dw_1_mux0000<0>)
+     LD:D                     -0.071          memoria_rd_rw/dw_1_0
+    ----------------------------------------
+    Total                      1.611ns (0.439ns logic, 1.172ns route)
+                                       (27.3% logic, 72.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'memoria_rd_rw/dw_0_not00011'
+  Total number of paths / destination ports: 320 / 32
+-------------------------------------------------------------------------
+Offset:              1.729ns (Levels of Logic = 2)
+  Source:            instruction:instruction<16> (PAD)
+  Destination:       memoria_rd_rw/dw_0_31 (LATCH)
+  Destination Clock: memoria_rd_rw/dw_0_not00011 falling
+
+  Data Path: instruction:instruction<16> to memoria_rd_rw/dw_0_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    Instruccion_Memory:instruction<16>   18   0.000   0.429  instruction (inst<16>)
+     RAM32M:ADDRA0->DOA0    7   0.345   0.743  register_file/Mram_r_ren1 (crt<0>)
+     LUT6:I3->O            1   0.094   0.000  memoria_rd_rw/Mmux_dw_0_mux000011 (memoria_rd_rw/dw_0_mux0000<0>)
+     LD:D                     -0.071          memoria_rd_rw/dw_0_0
+    ----------------------------------------
+    Total                      1.611ns (0.439ns logic, 1.172ns route)
+                                       (27.3% logic, 72.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'dm_wr1'
+  Total number of paths / destination ports: 160 / 64
+-------------------------------------------------------------------------
+Offset:              1.578ns (Levels of Logic = 2)
+  Source:            unidad_aritmeticologica:alu_output<1> (PAD)
+  Destination:       memoria_rd_rw/data_rd_31 (LATCH)
+  Destination Clock: dm_wr1 rising
+
+  Data Path: unidad_aritmeticologica:alu_output<1> to memoria_rd_rw/data_rd_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    ALU:alu_output<1>    230   0.000   1.233  unidad_aritmeticologica (alu_output<1>)
+     LUT6:I0->O            1   0.094   0.000  memoria_rd_rw/Mmux__COND_7952 (memoria_rd_rw/Mmux__COND_7951)
+     MUXF7:I0->O           1   0.251   0.000  memoria_rd_rw/Mmux__COND_795_f7 (memoria_rd_rw/_COND_7<26>)
+     LDE_1:D                  -0.071          memoria_rd_rw/data_rd_26
+    ----------------------------------------
+    Total                      1.578ns (0.345ns logic, 1.233ns route)
+                                       (21.9% logic, 78.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 96 / 96
+-------------------------------------------------------------------------
+Offset:              2.371ns (Levels of Logic = 1)
+  Source:            register_file/Mram_r_ren3 (RAM)
+  Destination:       unidad_aritmeticologica:alu_input<16> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: register_file/Mram_r_ren3 to unidad_aritmeticologica:alu_input<16>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAM32M:WCLK->DOC0     7   1.668   0.609  register_file/Mram_r_ren3 (crt<16>)
+     LUT3:I1->O            0   0.094   0.000  mux_alu_input/alu_input_mux0000<16>1 (alu_input<16>)
+    ALU:alu_input<16>          0.000          unidad_aritmeticologica
+    ----------------------------------------
+    Total                      2.371ns (1.762ns logic, 0.609ns route)
+                                       (74.3% logic, 25.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'dm_wr1'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              0.732ns (Levels of Logic = 0)
+  Source:            memoria_rd_rw/data_rd_31 (LATCH)
+  Destination:       mux_dw:data_rd<31> (PAD)
+  Source Clock:      dm_wr1 rising
+
+  Data Path: memoria_rd_rw/data_rd_31 to mux_dw:data_rd<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDE_1:G->Q            0   0.732   0.000  memoria_rd_rw/data_rd_31 (memoria_rd_rw/data_rd_31)
+    MUX_DW:data_rd<31>         0.000          mux_dw
+    ----------------------------------------
+    Total                      0.732ns (0.732ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 921 / 328
+-------------------------------------------------------------------------
+Delay:               1.499ns (Levels of Logic = 2)
+  Source:            instruction:instruction<16> (PAD)
+  Destination:       unidad_aritmeticologica:alu_input<31> (PAD)
+
+  Data Path: instruction:instruction<16> to unidad_aritmeticologica:alu_input<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    Instruccion_Memory:instruction<16>   18   0.000   0.429  instruction (inst<16>)
+     RAM32M:ADDRA0->DOA0    7   0.345   0.609  register_file/Mram_r_ren1 (crt<0>)
+     LUT3:I1->O            0   0.094   0.000  mux_alu_input/alu_input_mux0000<0>1 (alu_input<0>)
+    ALU:alu_input<0>           0.000          unidad_aritmeticologica
+    ----------------------------------------
+    Total                      1.477ns (0.439ns logic, 1.038ns route)
+                                       (29.7% logic, 70.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 16.00 secs
+Total CPU time to Xst completion: 16.28 secs
+ 
+--> 
+
+Total memory usage is 345472 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   96 (   0 filtered)
+Number of infos    :    9 (   0 filtered)
+

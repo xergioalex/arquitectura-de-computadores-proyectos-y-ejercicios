@@ -1,0 +1,182 @@
+Release 12.4 Map M.81d (nt64)
+Xilinx Mapping Report File for Design 'Register_FIle_Xergio'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol
+high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr
+off -lc off -power off -o Register_FIle_Xergio_map.ncd Register_FIle_Xergio.ngd
+Register_FIle_Xergio.pcf 
+Target Device  : xc5vlx110t
+Target Package : ff1136
+Target Speed   : -1
+Mapper Version : virtex5 -- $Revision: 1.52.76.2 $
+Mapped Date    : Mon Dec 05 21:10:07 2011
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Slice Logic Utilization:
+  Number of Slice Registers:                    20 out of  69,120    1%
+    Number used as Flip Flops:                  16
+    Number used as Latches:                      4
+  Number of Slice LUTs:                         12 out of  69,120    1%
+    Number used as logic:                       12 out of  69,120    1%
+      Number using O6 output only:              12
+
+Slice Logic Distribution:
+  Number of occupied Slices:                     9 out of  17,280    1%
+  Number of LUT Flip Flop pairs used:           28
+    Number with an unused Flip Flop:             8 out of      28   28%
+    Number with an unused LUT:                  16 out of      28   57%
+    Number of fully used LUT-FF pairs:           4 out of      28   14%
+    Number of unique control sets:               5
+    Number of slice register sites lost
+      to control set restrictions:               0 out of  69,120    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        20 out of     640    3%
+
+Specific Feature Utilization:
+  Number of BUFG/BUFGCTRLs:                      2 out of      32    6%
+    Number used as BUFGs:                        2
+
+Average Fanout of Non-Clock Nets:                2.45
+
+Peak Memory Usage:  534 MB
+Total REAL time to MAP completion:  45 secs 
+Total CPU time to MAP completion:   38 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+
+Section 3 - Informational
+-------------------------
+INFO:Security:56 - Part 'xc5vlx110t' is not a WebPack part.
+INFO:Security:65 - Your license for 'ISE' is for trial use only.
+INFO:Security:69 - Bitstream creation is disabled for trial licenses.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 0.950 Volts. (default - Range: 0.950 to
+   1.050 Volts)
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Pack:1650 - Map created a placed design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+
+Section 5 - Removed Logic
+-------------------------
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| clk                                | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| crs<0>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| crs<1>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| crs<2>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| crs<3>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| crt<0>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| crt<1>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| crt<2>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| crt<3>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| dw<0>                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| dw<1>                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| dw<2>                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| dw<3>                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| rs<0>                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| rs<1>                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| rt<0>                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| rt<1>                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| rw<0>                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| rw<1>                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| rwe                                | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

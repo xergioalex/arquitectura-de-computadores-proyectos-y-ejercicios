@@ -1,0 +1,3 @@
+vhdtdtfi -lib work Logica.vhd -prj Prueba -o Logica.spl -module Logica -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 Logica.spl {C:/Users/XergioAleX/Documents/Xilinx Projects/Prueba/Logica.sym} 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Prueba/Logica.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Prueba/Logica.syr" 

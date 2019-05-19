@@ -1,0 +1,3 @@
+verilog isim_temp "Procesador_Monociclo.v"
+verilog isim_temp "tb_register_file.v"
+verilog isim_temp "C:/Xilinx/12.4/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,28 @@
+Command line:
+   tb_registerFile_verilog_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50393
+
+Tue Dec 06 00:31:49 2011
+
+
+ Elaboration Time: 0.218401 sec
+
+ Current Memory Usage: 499.634 Meg
+
+ Total Signals          : 19
+ Total Nets             : 31
+ Total Signal Drivers   : 13
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 17
+ Total Traceable Variables  : 30
+ Total Scalar Nets and Variables : 147
+
+ Total Simulation Time: 0.249601 sec
+
+ Current Memory Usage: 499.634 Meg
+
+Tue Dec 06 00:32:14 2011
+

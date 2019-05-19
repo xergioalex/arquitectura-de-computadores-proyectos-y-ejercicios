@@ -1,0 +1,9 @@
+MODULE Sumador_Cuatro_bits
+	SUBMODULE Sumador_Medio
+		INSTANCE XLXI_1
+	SUBMODULE Sumador_Medio
+		INSTANCE XLXI_2
+	SUBMODULE Sumador_Medio
+		INSTANCE XLXI_3
+	SUBMODULE Sumador_Medio
+		INSTANCE XLXI_4

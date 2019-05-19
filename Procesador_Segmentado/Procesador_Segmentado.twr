@@ -1,0 +1,92 @@
+--------------------------------------------------------------------------------
+Release 12.4 Trace  (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\12.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Procesador_Segmentado.twx Procesador_Segmentado.ncd -o
+Procesador_Segmentado.twr Procesador_Segmentado.pcf
+
+Design file:              Procesador_Segmentado.ncd
+Physical constraint file: Procesador_Segmentado.pcf
+Device,package,speed:     xc5vlx110t,ff1136,-3 (PRODUCTION 1.72 2010-11-18, STEPPING level 0)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+--------------+------------+------------------+--------+
+              | clk (edge) |                  | Clock  |
+Destination   |   to PAD   |Internal Clock(s) | Phase  |
+--------------+------------+------------------+--------+
+alu_output<0> |   10.306(R)|clk_BUFGP         |   0.000|
+alu_output<1> |    9.552(R)|clk_BUFGP         |   0.000|
+alu_output<2> |    9.381(R)|clk_BUFGP         |   0.000|
+alu_output<3> |    9.812(R)|clk_BUFGP         |   0.000|
+alu_output<4> |   10.695(R)|clk_BUFGP         |   0.000|
+alu_output<5> |   10.406(R)|clk_BUFGP         |   0.000|
+alu_output<6> |    9.751(R)|clk_BUFGP         |   0.000|
+alu_output<7> |    9.862(R)|clk_BUFGP         |   0.000|
+alu_output<8> |    9.941(R)|clk_BUFGP         |   0.000|
+alu_output<9> |    9.857(R)|clk_BUFGP         |   0.000|
+alu_output<10>|    9.861(R)|clk_BUFGP         |   0.000|
+alu_output<11>|   10.103(R)|clk_BUFGP         |   0.000|
+alu_output<12>|    9.862(R)|clk_BUFGP         |   0.000|
+alu_output<13>|   10.047(R)|clk_BUFGP         |   0.000|
+alu_output<14>|   10.307(R)|clk_BUFGP         |   0.000|
+alu_output<15>|   10.355(R)|clk_BUFGP         |   0.000|
+alu_output<16>|   10.145(R)|clk_BUFGP         |   0.000|
+alu_output<17>|   10.092(R)|clk_BUFGP         |   0.000|
+alu_output<18>|    9.808(R)|clk_BUFGP         |   0.000|
+alu_output<19>|   10.364(R)|clk_BUFGP         |   0.000|
+alu_output<20>|   10.060(R)|clk_BUFGP         |   0.000|
+alu_output<21>|   10.222(R)|clk_BUFGP         |   0.000|
+alu_output<22>|   10.626(R)|clk_BUFGP         |   0.000|
+alu_output<23>|   10.536(R)|clk_BUFGP         |   0.000|
+alu_output<24>|   10.242(R)|clk_BUFGP         |   0.000|
+alu_output<25>|   10.260(R)|clk_BUFGP         |   0.000|
+alu_output<26>|   10.397(R)|clk_BUFGP         |   0.000|
+alu_output<27>|   10.281(R)|clk_BUFGP         |   0.000|
+alu_output<28>|   10.377(R)|clk_BUFGP         |   0.000|
+alu_output<29>|   10.315(R)|clk_BUFGP         |   0.000|
+alu_output<30>|   10.784(R)|clk_BUFGP         |   0.000|
+alu_output<31>|   10.724(R)|clk_BUFGP         |   0.000|
+--------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.346|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Wed Jan 04 13:55:45 2012 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 414 MB
+
+
+

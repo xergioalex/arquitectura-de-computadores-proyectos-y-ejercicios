@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Decodificador.xst" -ofn "C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Decodificador.syr" 

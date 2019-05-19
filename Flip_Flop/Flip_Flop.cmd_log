@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.syr" 
+sch2sym -intstyle ise -family virtex5 -refsym Flip_Flop {C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.sch} {C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.sym} 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx110t-ff1136-1 "Flip_Flop.ngc" Flip_Flop.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o Flip_Flop_map.ncd Flip_Flop.ngd Flip_Flop.pcf 
+par -w -intstyle ise -ol high -mt off Flip_Flop_map.ncd Flip_Flop.ncd Flip_Flop.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Flip_Flop.twx Flip_Flop.ncd -o Flip_Flop.twr Flip_Flop.pcf 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/Flip_Flop/Flip_Flop.syr" 

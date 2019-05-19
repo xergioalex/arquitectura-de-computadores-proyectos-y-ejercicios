@@ -1,0 +1,6 @@
+vhdtdtfi -lib work {C:/Users/XergioAleX/Documents/Xilinx Projects/Ejemplo/PTD.v} -lang verilog -prj Ejemplo -o PTD.spl -module PTD -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 PTD.spl {C:/Users/XergioAleX/Documents/Xilinx Projects/Ejemplo/PTD.sym} 
+vhdtdtfi -lib work {C:/Users/XergioAleX/Documents/Xilinx Projects/Ejemplo/PTD.v} -lang verilog -prj Ejemplo -o PTD.spl -module PTD -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 PTD.spl {C:/Users/XergioAleX/Documents/Xilinx Projects/Ejemplo/PTD.sym} 
+vhdtdtfi -lib work {C:/Users/XergioAleX/Documents/Xilinx Projects/Ejemplo/PTD.v} -lang verilog -prj Ejemplo -o PTD.spl -module PTD -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 PTD.spl {C:/Users/XergioAleX/Documents/Xilinx Projects/Ejemplo/PTD.sym} 

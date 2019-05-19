@@ -1,0 +1,4 @@
+work	"Decodificador.vhd"
+work	"Multiplexor.vhd"
+work	"Registe_File.vhd"
+work	"Register.vhd"

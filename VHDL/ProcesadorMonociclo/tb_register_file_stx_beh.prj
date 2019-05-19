@@ -1,0 +1,4 @@
+vhdl isim_temp "Multiplexor.vhd"
+vhdl isim_temp "Decodificador.vhd"
+vhdl isim_temp "Register_File.vhd"
+vhdl isim_temp "tb_register_file.vhd"

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/XergioAleX/Documents/Xilinx Projects/Prueba/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/XergioAleX/Documents/Xilinx Projects/Prueba/xst"
+elaborate
+-ifn Logica.prj
+-ifmt mixed

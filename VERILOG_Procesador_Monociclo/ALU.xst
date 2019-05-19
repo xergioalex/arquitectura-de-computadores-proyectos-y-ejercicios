@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/XergioAleX/Documents/Xilinx Projects/VERILOG_Procesador_Monociclo/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/XergioAleX/Documents/Xilinx Projects/VERILOG_Procesador_Monociclo/xst"
+elaborate
+-ifn ALU.prj
+-ifmt mixed

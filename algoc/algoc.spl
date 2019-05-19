@@ -1,0 +1,9 @@
+[Inputs]
+a
+b
+[Outputs]
+so
+[BiDir]
+[ATTRIBUTES]
+VeriModel algoc
+

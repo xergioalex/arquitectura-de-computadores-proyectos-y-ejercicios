@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DARoots Version="1" Minor="6">
+	<FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+		<Filter Type="Constrs"/>
+		<Root Path="C:/Users/Andres/Desktop/Entrega Arquitectura/RegisterFile/RegisterFile.ucf">
+		</Root>
+		<Root Path="C:/Users/Andres/Desktop/Entrega Arquitectura/RegisterFile/XUPV5.ucf">
+		</Root>
+		<Config>
+			<Option Name="TargetPart" Val="xc5vlx110tff1136-1"/>
+		</Config>
+	</FileSet>
+</DARoots>
+

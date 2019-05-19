@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family virtex5 -flat -suppress -vhdl Sumador_Cuatro_bits.vhf -w {C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Sumador_Cuatro_bits.sch} 
+sch2vhdl -intstyle ise -family virtex5 -tionly -w {C:/JUAN CORRALES/UTP/SEMESTRE 1102/ARQUITECTURA DE COMPUTADORES/RegisterFile/Sumador_Cuatro_bits.sch} Sumador_Cuatro_bits.vhi 

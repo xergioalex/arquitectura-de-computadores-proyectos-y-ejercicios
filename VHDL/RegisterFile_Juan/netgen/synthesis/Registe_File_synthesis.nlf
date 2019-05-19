@@ -1,0 +1,19 @@
+Release 12.4 - netgen M.81d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -ar Structure -tm Registe_File -w -dir
+netgen/synthesis -ofmt vhdl -sim Registe_File.ngc Registe_File_synthesis.vhd  
+
+Reading design 'Registe_File.ngc' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing VHDL netlist 'C:\JUAN CORRALES\UTP\SEMESTRE 1102\ARQUITECTURA DE
+COMPUTADORES\RegisterFile\netgen\synthesis\Registe_File_synthesis.vhd' ...
+INFO:NetListWriters:635 - The generated VHDL netlist contains Xilinx UNISIM
+   simulation primitives and has to be used with UNISIM library for correct
+   compilation and simulation. 
+Number of warnings: 0
+Number of info messages: 1
+Total memory usage is 95616 kilobytes

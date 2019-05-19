@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Procesador_Monociclo.vhd -prj ProcesadorMonociclo -o Procesador_Monociclo.spl -module Procesador_Monociclo -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 Procesador_Monociclo.spl {C:/Users/XergioAleX/Documents/Xilinx Projects/ProcesadorMonociclo/Procesador_Monociclo.sym} 

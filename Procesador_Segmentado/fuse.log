@@ -1,0 +1,37 @@
+Running: C:\Xilinx\12.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/Universidad/Semestre 6/Arquitectura de Computadores/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado_isim_beh.exe -prj D:/Universidad/Semestre 6/Arquitectura de Computadores/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado_beh.prj work.Procesador_Segmentado work.glbl 
+ISim M.81d (signature 0x12940baa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file \"D:/Universidad/Semestre 6/Arquitectura de Computadores/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado.v\" into library work
+Analyzing Verilog file \"C:/Xilinx/12.4/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module Registro32
+Compiling module Registro5
+Compiling module Registro4
+Compiling module Registro2
+Compiling module Registro1
+Compiling module Program_Counter
+Compiling module Instruction_Memory
+Compiling module Sumador_pc
+Compiling module Control_Unit
+Compiling module Register_File
+Compiling module SEU
+Compiling module Comparador
+Compiling module Sumador_pc_inc
+Compiling module Ampersan
+Compiling module MUX_PC
+Compiling module MUX_ALU
+Compiling module ALU
+Compiling module MUX_RW
+Compiling module Data_Memory
+Compiling module MUX_DW
+Compiling module Procesador_Segmentado
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 15 sub-compilation(s) to finish...
+Compiled 22 Verilog Units
+Built simulation executable D:/Universidad/Semestre 6/Arquitectura de Computadores/Xilinx Projects/Procesador_Segmentado/Procesador_Segmentado_isim_beh.exe
+Fuse Memory Usage: 17120 KB
+Fuse CPU Usage: 343 ms

@@ -1,0 +1,42 @@
+Release 12.4 - xst M.81d (nt64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/XergioAleX/Desktop/RegisterFile/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/XergioAleX/Desktop/RegisterFile/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/XergioAleX/Desktop/RegisterFile/Decodificador.vhd" in Library work.
+Architecture behavioral of Entity decodificador is up to date.
+Compiling vhdl file "C:/Users/XergioAleX/Desktop/RegisterFile/Register.vhd" in Library work.
+Architecture behavioral of Entity registers is up to date.
+Compiling vhdl file "C:/Users/XergioAleX/Desktop/RegisterFile/Multiplexor.vhd" in Library work.
+Architecture behavioral of Entity multiplexor is up to date.
+Compiling vhdl file "C:/Users/XergioAleX/Desktop/RegisterFile/Registe_File.vhd" in Library work.
+Entity <registe_file> compiled.
+ERROR:HDLParsers:3312 - "C:/Users/XergioAleX/Desktop/RegisterFile/Registe_File.vhd" Line 90. Undefined symbol 'Registers'.
+ERROR:HDLParsers:1209 - "C:/Users/XergioAleX/Desktop/RegisterFile/Registe_File.vhd" Line 91. Registers: Undefined symbol (last report in this block)
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.40 secs
+ 
+--> 
+
+Total memory usage is 199472 kilobytes
+
+Number of errors   :    2 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

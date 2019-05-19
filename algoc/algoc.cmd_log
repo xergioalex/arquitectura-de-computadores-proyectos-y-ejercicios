@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/algoc/algoc.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/algoc/algoc.syr" 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/algoc/algoc.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/algoc/algoc.syr" 
+vhdtdtfi -lib work {C:/Users/XergioAleX/Documents/Xilinx Projects/algoc/algoc.v} -lang verilog -prj algoc -o algoc.spl -module algoc -template C:/Xilinx/12.4/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 algoc.spl {C:/Users/XergioAleX/Documents/Xilinx Projects/algoc/algoc.sym} 
+xst -intstyle ise -ifn "C:/Users/XergioAleX/Documents/Xilinx Projects/algoc/algoc.xst" -ofn "C:/Users/XergioAleX/Documents/Xilinx Projects/algoc/algoc.syr" 
