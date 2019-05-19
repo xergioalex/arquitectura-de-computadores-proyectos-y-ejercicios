@@ -4,7 +4,7 @@ Todos mis ejercicios y ejemplos desarrollados durante mi pregrado en Ingeniería
 
 Fotos del desarrollo del procesador segmentado:
 
-![Procesador Segmentado Xergio](Procesador_Segmentado_Xergio.jpg)
+![Procesador Segmentado Xergio](segmented_processor_scheme/Procesador_Segmentado_Xergio.jpg)
 ![1](segmented_processor_scheme/1.jpg)
 ![2](segmented_processor_scheme/2.jpg)
 ![3](segmented_processor_scheme/3.jpg)
